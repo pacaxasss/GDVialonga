@@ -14,7 +14,7 @@ require_once dirname(__DIR__) . '/includes/header.php';
 <section class="page-hero">
     <div class="container page-hero-inner">
         <nav class="breadcrumb">
-            <a href="index.php">Início</a>
+            <a href="<?= url() ?>">Início</a>
             <span class="breadcrumb-sep">/</span>
             <span>Plantéis</span>
         </nav>
@@ -63,7 +63,7 @@ require_once dirname(__DIR__) . '/includes/header.php';
                 <div class="players-grid">
                     <?php foreach ($posPlayers as $player):
                         $isStaff      = ($pos==='coach' || $pos==='staff');
-                        $playerPhoto  = $player['photo'] ?? '';
+                        $playerPhoto  = !empty($player['photo']) ? url($player['photo']) : '';
                         $playerNumber = (int)($player['number'] ?? 0);
                         $playerGoals  = (int)($player['goals'] ?? 0);
                         $playerAssist = (int)($player['assists'] ?? 0);

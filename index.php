@@ -34,8 +34,8 @@ require_once 'includes/header.php';
                     Desde 1961 que jogamos, crescemos e vivemos nesta terra.<br>O GDV não é só futebol — é o sítio onde Vialonga se encontra.
                 </p>
                 <div class="hero-actions">
-                    <a href="futebol.php" class="btn btn-primary btn-lg">Resultados & Classificação</a>
-                    <a href="formacao.php#inscricao" class="btn btn-outline-white btn-lg">Inscrever na Formação</a>
+                    <a href="<?= url('futebol') ?>" class="btn btn-primary btn-lg">Resultados &amp; Classificação</a>
+                    <a href="<?= url('formacao#inscricao') ?>" class="btn btn-outline-white btn-lg">Inscrever na Formação</a>
                 </div>
             </div>
 
@@ -126,7 +126,7 @@ require_once 'includes/header.php';
                     O que se passa no GDV
                 </h2>
             </div>
-            <a href="noticias.php" class="btn-ghost">
+            <a href="<?= url('noticias') ?>" class="btn-ghost">
                 Ver todas
                 <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
             </a>
@@ -134,7 +134,7 @@ require_once 'includes/header.php';
 
         <?php if ($featured): ?>
         <!-- Featured article — full-width, editorial -->
-        <a href="noticia.php?slug=<?= urlencode($featured['slug']) ?>" class="news-featured" style="display:grid">
+        <a href="<?= url('noticia?slug=' . urlencode($featured['slug'])) ?>" class="news-featured" style="display:grid">
             <div class="news-featured-img">
                 <img src="<?= htmlspecialchars(safeNewsImagePath($featured['cover_image']), ENT_QUOTES, 'UTF-8') ?>" alt="<?= htmlspecialchars($featured['title']) ?>" loading="eager">
             </div>
@@ -169,9 +169,9 @@ require_once 'includes/header.php';
                     <h3 class="news-card-title"><?= htmlspecialchars($post['title']) ?></h3>
                     <p class="news-card-summary"><?= htmlspecialchars(truncate($post['summary'], 100)) ?></p>
                     <div class="news-card-footer">
-                        <a href="noticia.php?slug=<?= urlencode($post['slug']) ?>" class="news-read-more">
+                        <a href="<?= url('noticia?slug=' . urlencode($post['slug'])) ?>" class="news-read-more">
                             Ler mais
-                            <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                            <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
                         </a>
                     </div>
                 </div>
@@ -250,7 +250,7 @@ require_once 'includes/header.php';
                 </h2>
                 <p style="font-size:.8rem;color:var(--gray-400);margin-top:.25rem">Época <?= htmlspecialchars($standings['season'] ?? '2026/27') ?> &middot; Atualizado <?= formatDate($standings['updated_at'] ?? date('Y-m-d')) ?></p>
             </div>
-            <a href="futebol.php#classificacao" class="btn-ghost">
+            <a href="<?= url('futebol#classificacao') ?>" class="btn-ghost">
                 Tabela completa
                 <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
             </a>
@@ -324,13 +324,13 @@ require_once 'includes/header.php';
                 <span class="escalao-tag">Sub-17 Juvenis</span>
                 <span class="escalao-tag">Sub-19 Juniores</span>
             </div>
-            <a href="formacao.php#inscricao" class="btn btn-outline-white btn-lg">
+            <a href="<?= url('formacao#inscricao') ?>" class="btn btn-outline-white btn-lg">
                 Inscrição gratuita
                 <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
             </a>
         </div>
         <div class="formacao-cta-image">
-            <img src="assets/images/player_silhouette.png" alt="Formação GD Vialonga">
+            <img src="<?= url('assets/images/player_silhouette.png') ?>" alt="Formação GD Vialonga">
         </div>
     </div>
 <!-- LOJA OFICIAL SHOWCASE -->
@@ -346,7 +346,7 @@ require_once 'includes/header.php';
                     Veste as cores do clube. Camisolas oficiais, kits completos de jogo e agasalhos disponíveis na nossa loja online com a SAK Project.
                 </p>
             </div>
-            <a href="loja.php" class="btn btn-primary">
+            <a href="<?= url('loja') ?>" class="btn btn-primary">
                 Ver Loja Completa &rarr;
             </a>
         </div>
@@ -354,7 +354,7 @@ require_once 'includes/header.php';
         <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(240px, 1fr));gap:1.5rem">
             <div class="store-card" style="background:#fff;border-radius:var(--radius-md);border:1px solid var(--gray-200);overflow:hidden;display:flex;flex-direction:column;transition:var(--transition)">
                 <div style="background:#f8fafc;padding:1.25rem;aspect-ratio:1/1;display:flex;align-items:center;justify-content:center;overflow:hidden">
-                    <img src="assets/images/loja/camisola-75-anos-gd-vialonga.webp" alt="Camisola 75 Anos GD Vialonga" loading="lazy" style="max-width:100%;max-height:100%;object-fit:contain;transition:transform .3s ease">
+                    <img src="<?= url('assets/images/loja/camisola-75-anos-gd-vialonga.webp') ?>" alt="Camisola 75 Anos GD Vialonga" loading="lazy" style="max-width:100%;max-height:100%;object-fit:contain;transition:transform .3s ease">
                 </div>
                 <div style="padding:1.1rem;display:flex;flex-direction:column;flex-grow:1;justify-content:space-between">
                     <div>
@@ -370,7 +370,7 @@ require_once 'includes/header.php';
 
             <div class="store-card" style="background:#fff;border-radius:var(--radius-md);border:1px solid var(--gray-200);overflow:hidden;display:flex;flex-direction:column;transition:var(--transition)">
                 <div style="background:#f8fafc;padding:1.25rem;aspect-ratio:1/1;display:flex;align-items:center;justify-content:center;overflow:hidden">
-                    <img src="assets/images/loja/camisola-principal-gd-vialonga-2627.webp" alt="Camisola Principal GD Vialonga 26/27" loading="lazy" style="max-width:100%;max-height:100%;object-fit:contain;transition:transform .3s ease">
+                    <img src="<?= url('assets/images/loja/camisola-principal-gd-vialonga-2627.webp') ?>" alt="Camisola Principal GD Vialonga 26/27" loading="lazy" style="max-width:100%;max-height:100%;object-fit:contain;transition:transform .3s ease">
                 </div>
                 <div style="padding:1.1rem;display:flex;flex-direction:column;flex-grow:1;justify-content:space-between">
                     <div>
@@ -386,7 +386,7 @@ require_once 'includes/header.php';
 
             <div class="store-card" style="background:#fff;border-radius:var(--radius-md);border:1px solid var(--gray-200);overflow:hidden;display:flex;flex-direction:column;transition:var(--transition)">
                 <div style="background:#f8fafc;padding:1.25rem;aspect-ratio:1/1;display:flex;align-items:center;justify-content:center;overflow:hidden">
-                    <img src="assets/images/loja/camisola-alternativo-gd-vialonga-2627.webp" alt="Camisola Alternativo GD Vialonga 26/27" loading="lazy" style="max-width:100%;max-height:100%;object-fit:contain;transition:transform .3s ease">
+                    <img src="<?= url('assets/images/loja/camisola-alternativo-gd-vialonga-2627.webp') ?>" alt="Camisola Alternativo GD Vialonga 26/27" loading="lazy" style="max-width:100%;max-height:100%;object-fit:contain;transition:transform .3s ease">
                 </div>
                 <div style="padding:1.1rem;display:flex;flex-direction:column;flex-grow:1;justify-content:space-between">
                     <div>
@@ -402,7 +402,7 @@ require_once 'includes/header.php';
 
             <div class="store-card" style="background:#fff;border-radius:var(--radius-md);border:1px solid var(--gray-200);overflow:hidden;display:flex;flex-direction:column;transition:var(--transition)">
                 <div style="background:#f8fafc;padding:1.25rem;aspect-ratio:1/1;display:flex;align-items:center;justify-content:center;overflow:hidden">
-                    <img src="assets/images/loja/fato-de-treino-gd-vialonga.webp" alt="Fato de Treino GD Vialonga" loading="lazy" style="max-width:100%;max-height:100%;object-fit:contain;transition:transform .3s ease">
+                    <img src="<?= url('assets/images/loja/fato-de-treino-gd-vialonga.webp') ?>" alt="Fato de Treino GD Vialonga" loading="lazy" style="max-width:100%;max-height:100%;object-fit:contain;transition:transform .3s ease">
                 </div>
                 <div style="padding:1.1rem;display:flex;flex-direction:column;flex-grow:1;justify-content:space-between">
                     <div>
@@ -424,7 +424,7 @@ require_once 'includes/header.php';
     <div class="container">
         <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:1.25rem">
             <p style="font-family:var(--font-display);font-size:.68rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--gray-400);margin:0">Com o apoio de</p>
-            <a href="patrocinadores.php" style="font-size:.78rem;font-weight:700;color:var(--gdv-blue);display:inline-flex;align-items:center;gap:.3rem">
+            <a href="<?= url('patrocinadores') ?>" style="font-size:.78rem;font-weight:700;color:var(--gdv-blue);display:inline-flex;align-items:center;gap:.3rem">
                 <span>Ver Todos os Patrocinadores</span>
                 <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
             </a>
@@ -432,9 +432,9 @@ require_once 'includes/header.php';
         <div class="sponsors-track-wrap">
             <div class="sponsors-track">
                 <?php foreach (array_merge($sponsors, $sponsors, $sponsors, $sponsors) as $s): ?>
-                <a href="patrocinadores.php" class="sponsor-item principal" style="text-decoration:none" title="<?= htmlspecialchars($s['name']) ?>">
+                <a href="<?= url('patrocinadores') ?>" class="sponsor-item principal" style="text-decoration:none" title="<?= htmlspecialchars($s['name']) ?>">
                     <?php if (!empty($s['logo_image']) && file_exists(__DIR__ . '/' . $s['logo_image'])): ?>
-                        <img src="<?= htmlspecialchars($s['logo_image']) ?>" alt="<?= htmlspecialchars($s['short']) ?>" style="max-height:26px;max-width:115px;object-fit:contain;display:block">
+                        <img src="<?= url(htmlspecialchars($s['logo_image'])) ?>" alt="<?= htmlspecialchars($s['short']) ?>" style="max-height:26px;max-width:115px;object-fit:contain;display:block">
                     <?php else: ?>
                         <?= htmlspecialchars($s['short']) ?>
                     <?php endif; ?>

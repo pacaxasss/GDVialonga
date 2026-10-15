@@ -14,7 +14,7 @@ require_once dirname(__DIR__) . '/includes/header.php';
 <section class="page-hero">
     <div class="container page-hero-inner">
         <nav class="breadcrumb">
-            <a href="index.php">Início</a>
+            <a href="<?= url() ?>">Início</a>
             <span class="breadcrumb-sep">/</span>
             <span>Notícias</span>
         </nav>
@@ -36,9 +36,9 @@ require_once dirname(__DIR__) . '/includes/header.php';
 
         <!-- Featured -->
         <?php if ($featured && ($activeFilter==='all' || $featured['category']===$activeFilter)): ?>
-        <a href="noticia.php?slug=<?= urlencode($featured['slug']) ?>" class="news-featured" data-category="<?= htmlspecialchars($featured['category'], ENT_QUOTES, 'UTF-8') ?>" style="display:grid;margin-bottom:2.5rem">
+        <a href="<?= url('noticia?slug=' . urlencode($featured['slug'])) ?>" class="news-featured" data-category="<?= htmlspecialchars($featured['category'], ENT_QUOTES, 'UTF-8') ?>" style="display:grid;margin-bottom:2.5rem">
             <div class="news-featured-img">
-                <img src="<?= htmlspecialchars(safeNewsImagePath($featured['cover_image']), ENT_QUOTES, 'UTF-8') ?>" alt="<?= htmlspecialchars($featured['title']) ?>" loading="eager">
+                <img src="<?= url(htmlspecialchars(safeNewsImagePath($featured['cover_image']), ENT_QUOTES, 'UTF-8')) ?>" alt="<?= htmlspecialchars($featured['title']) ?>" loading="eager">
             </div>
             <div class="news-featured-body">
                 <div class="news-featured-tag">
@@ -61,7 +61,7 @@ require_once dirname(__DIR__) . '/includes/header.php';
             <article class="news-card" data-category="<?= htmlspecialchars($post['category'], ENT_QUOTES, 'UTF-8') ?>"
                 <?= ($activeFilter!=='all' && $post['category']!==$activeFilter) ? 'style="display:none"' : '' ?>>
                 <div class="news-card-img">
-                    <img src="<?= htmlspecialchars(safeNewsImagePath($post['cover_image']), ENT_QUOTES, 'UTF-8') ?>" alt="<?= htmlspecialchars($post['title']) ?>" loading="lazy">
+                    <img src="<?= url(htmlspecialchars(safeNewsImagePath($post['cover_image']), ENT_QUOTES, 'UTF-8')) ?>" alt="<?= htmlspecialchars($post['title']) ?>" loading="lazy">
                     <div class="news-card-cat">
                         <span class="badge <?= categoryClass($post['category']) ?>"><?= categoryLabel($post['category']) ?></span>
                     </div>
@@ -71,7 +71,7 @@ require_once dirname(__DIR__) . '/includes/header.php';
                     <h2 class="news-card-title"><?= htmlspecialchars($post['title']) ?></h2>
                     <p class="news-card-summary"><?= htmlspecialchars(truncate($post['summary'], 110)) ?></p>
                     <div class="news-card-footer">
-                        <a href="noticia.php?slug=<?= urlencode($post['slug']) ?>" class="news-read-more">
+                        <a href="<?= url('noticia?slug=' . urlencode($post['slug'])) ?>" class="news-read-more">
                             Ler mais
                             <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
                         </a>

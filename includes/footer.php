@@ -3,7 +3,7 @@
         <div class="container footer-grid">
             <div>
                 <div class="footer-logo">
-                    <img src="<?= $basePath ?? '' ?>assets/images/logo.png" alt="GD Vialonga" class="footer-logo-img" data-hide-on-error>
+                    <img src="<?= url('assets/images/logo.png') ?>" alt="GD Vialonga" class="footer-logo-img" data-hide-on-error>
                     <div>
                         <strong class="footer-club-name">GD Vialonga</strong>
                         <small class="footer-club-sub">Grupo Desportivo de Vialonga</small>
@@ -19,26 +19,26 @@
             <div>
                 <h4 class="footer-heading">Páginas</h4>
                 <ul class="footer-links">
-                    <li><a href="index.php">Início</a></li>
-                    <li><a href="o-clube.php">O Clube</a></li>
-                    <li><a href="noticias.php">Notícias</a></li>
-                    <li><a href="futebol.php">Futebol</a></li>
-                    <li><a href="plantel.php">Plantéis</a></li>
-                    <li><a href="formacao.php">Formação</a></li>
-                    <li><a href="loja.php">Loja Oficial</a></li>
-                    <li><a href="patrocinadores.php">Patrocinadores</a></li>
-                    <li><a href="contactos.php">Contactos</a></li>
+                    <li><a href="<?= url() ?>">Início</a></li>
+                    <li><a href="<?= url('o-clube') ?>">O Clube</a></li>
+                    <li><a href="<?= url('noticias') ?>">Notícias</a></li>
+                    <li><a href="<?= url('futebol') ?>">Futebol</a></li>
+                    <li><a href="<?= url('plantel') ?>">Plantéis</a></li>
+                    <li><a href="<?= url('formacao') ?>">Formação</a></li>
+                    <li><a href="<?= url('loja') ?>">Loja Oficial</a></li>
+                    <li><a href="<?= url('patrocinadores') ?>">Patrocinadores</a></li>
+                    <li><a href="<?= url('contactos') ?>">Contactos</a></li>
                 </ul>
             </div>
             <div>
                 <h4 class="footer-heading">Escalões</h4>
                 <ul class="footer-links">
-                    <li><a href="plantel.php">Seniores</a></li>
-                    <li><a href="plantel.php">Juniores (Sub-19)</a></li>
-                    <li><a href="formacao.php">Juvenis (Sub-17)</a></li>
-                    <li><a href="formacao.php">Iniciados (Sub-15)</a></li>
-                    <li><a href="formacao.php">Infantis (Sub-13)</a></li>
-                    <li><a href="formacao.php">Petizes &amp; Mini</a></li>
+                    <li><a href="<?= url('plantel') ?>">Seniores</a></li>
+                    <li><a href="<?= url('plantel') ?>">Juniores (Sub-19)</a></li>
+                    <li><a href="<?= url('formacao') ?>">Juvenis (Sub-17)</a></li>
+                    <li><a href="<?= url('formacao') ?>">Iniciados (Sub-15)</a></li>
+                    <li><a href="<?= url('formacao') ?>">Infantis (Sub-13)</a></li>
+                    <li><a href="<?= url('formacao') ?>">Petizes &amp; Mini</a></li>
                 </ul>
             </div>
             <div>
@@ -58,6 +58,6 @@
         </div>
     </div>
 </footer>
-<script src="<?= $basePath ?? '' ?>assets/js/main.js"></script>
+<script src="<?= url('assets/js/main.js') ?>"></script>
 </body>
 </html>

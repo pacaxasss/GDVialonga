@@ -42,7 +42,7 @@ require_once dirname(__DIR__) . '/includes/header.php';
 <section class="page-hero">
     <div class="container page-hero-inner">
         <nav class="breadcrumb">
-            <a href="index.php">Início</a>
+            <a href="<?= url() ?>">Início</a>
             <span class="breadcrumb-sep">/</span>
             <span>Loja Oficial</span>
         </nav>
@@ -69,7 +69,7 @@ require_once dirname(__DIR__) . '/includes/header.php';
     <div class="container">
         <div class="filter-bar" style="display:flex;gap:.5rem;flex-wrap:wrap;align-items:center">
             <?php foreach ($categories as $catKey => $catLabel): ?>
-            <a href="loja.php?cat=<?= urlencode($catKey) ?>"
+            <a href="<?= $catKey === 'all' ? url('loja') : url('loja?cat=' . urlencode($catKey)) ?>"
                class="filter-btn <?= $activeCat===$catKey ? 'active' : '' ?>">
                 <?= htmlspecialchars($catLabel) ?>
             </a>
@@ -98,12 +98,12 @@ require_once dirname(__DIR__) . '/includes/header.php';
         <?php if (empty($filteredProducts)): ?>
         <div style="background:#fff;padding:3rem 2rem;border-radius:var(--radius-md);text-align:center;color:var(--gray-500)">
             <p>Não foram encontrados produtos nesta categoria.</p>
-            <a href="loja.php" class="btn btn-primary" style="margin-top:1rem">Ver Todos os Produtos</a>
+            <a href="<?= url('loja') ?>" class="btn btn-primary" style="margin-top:1rem">Ver Todos os Produtos</a>
         </div>
         <?php else: ?>
         <div class="store-grid" style="display:grid;grid-template-columns:repeat(auto-fill, minmax(260px, 1fr));gap:1.75rem">
             <?php foreach ($filteredProducts as $item): 
-                $imgSrc = !empty($item['local_image']) ? $item['local_image'] : $item['image'];
+                $imgSrc = !empty($item['local_image']) ? url($item['local_image']) : $item['image'];
             ?>
             <div class="store-card" style="background:#fff;border-radius:var(--radius-md);border:1px solid var(--gray-200);overflow:hidden;display:flex;flex-direction:column;transition:var(--transition);box-shadow:var(--shadow-sm)">
                 <div style="position:relative;background:#f8fafc;padding:1.5rem;display:flex;align-items:center;justify-content:center;aspect-ratio:1/1;overflow:hidden">

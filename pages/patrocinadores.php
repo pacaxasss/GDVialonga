@@ -27,7 +27,7 @@ require_once dirname(__DIR__) . '/includes/header.php';
 <section class="page-hero">
     <div class="container page-hero-inner">
         <nav class="breadcrumb">
-            <a href="index.php">Início</a>
+            <a href="<?= url() ?>">Início</a>
             <span class="breadcrumb-sep">/</span>
             <span>Patrocinadores</span>
         </nav>
@@ -49,7 +49,7 @@ require_once dirname(__DIR__) . '/includes/header.php';
             </p>
         </div>
         <div>
-            <a href="contactos.php" class="btn btn-primary" style="white-space:nowrap">
+            <a href="<?= url('contactos') ?>" class="btn btn-primary" style="white-space:nowrap">
                 Seja Patrocinador do GDV &rarr;
             </a>
         </div>
@@ -95,7 +95,7 @@ require_once dirname(__DIR__) . '/includes/header.php';
 
                             <div style="height:84px;display:flex;align-items:center;justify-content:center;background:#fff;border:1px solid var(--gray-200);border-radius:var(--radius-md);padding:.75rem 1.25rem;box-shadow:inset 0 1px 2px rgba(0,0,0,.02)">
                                 <?php if (!empty($item['logo_image']) && file_exists(dirname(__DIR__) . '/' . $item['logo_image'])): ?>
-                                    <img src="<?= htmlspecialchars($item['logo_image']) ?>" alt="Logótipo <?= htmlspecialchars($item['name']) ?>" style="max-height:64px;max-width:100%;width:auto;height:auto;object-fit:contain;display:block">
+                                    <img src="<?= url(htmlspecialchars($item['logo_image'])) ?>" alt="Logótipo <?= htmlspecialchars($item['name']) ?>" style="max-height:64px;max-width:100%;width:auto;height:auto;object-fit:contain;display:block">
                                 <?php else: ?>
                                     <span style="font-family:var(--font-display);font-weight:900;font-size:1.05rem;color:var(--gdv-blue-dark);letter-spacing:.03em;text-align:center">
                                         <?= htmlspecialchars($item['logo_text'] ?: ($item['short'] ?: $item['name'])) ?>
@@ -156,7 +156,7 @@ require_once dirname(__DIR__) . '/includes/header.php';
                 Dispomos de vários pacotes de patrocínio à medida: placas de publicidade no estádio, destaque nos equipamentos de jogo, carrinhas do clube e presença digital nos nossos canais e website.
             </p>
             <div style="display:flex;justify-content:center;gap:1rem;flex-wrap:wrap">
-                <a href="contactos.php" class="btn btn-primary btn-lg">Falar com a Direção</a>
+                <a href="<?= url('contactos') ?>" class="btn btn-primary btn-lg">Falar com a Direção</a>
                 <a href="mailto:geral@gdvialonga.pt?subject=Patrocínio%20GD%20Vialonga" class="btn btn-outline btn-lg">Enviar Email Direto</a>
             </div>
         </div>

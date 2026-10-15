@@ -349,3 +349,23 @@ function loadData(string $filename): array {
     if (!file_exists($path)) return [];
     return json_decode(file_get_contents($path), true) ?? [];
 }
+
+// ── Helpers de URLs e Rotas ─────────────────────────
+function getBasePath(): string {
+    $script = str_replace('\\', '/', $_SERVER['SCRIPT_NAME'] ?? '');
+    $dir = dirname($script);
+    if (str_ends_with($dir, '/pages') || str_ends_with($dir, '/admin')) {
+        $dir = dirname($dir);
+    }
+    return rtrim($dir, '/') . '/';
+}
+
+function url(string $path = ''): string {
+    $base = getBasePath();
+    $path = ltrim($path, '/');
+    if ($path === '' || $path === 'index.php') {
+        return $base;
+    }
+    return $base . $path;
+}
+

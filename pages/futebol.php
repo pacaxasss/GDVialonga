@@ -25,7 +25,7 @@ require_once dirname(__DIR__) . '/includes/header.php';
 <section class="page-hero">
     <div class="container page-hero-inner">
         <nav class="breadcrumb">
-            <a href="index.php">Início</a>
+            <a href="<?= url() ?>">Início</a>
             <span class="breadcrumb-sep">/</span>
             <span>Futebol</span>
         </nav>
