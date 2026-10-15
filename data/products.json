@@ -1,0 +1,194 @@
+[
+    {
+        "title": "Camisola 75 Anos GD Vialonga",
+        "url": "https://sakproject.com/product/camisola-75-anos-gd-vialonga/",
+        "image": "https://sakproject.com/wp-content/uploads/2026/08/GD-Vialonga-CAMISOLA-KIT75-600x600.webp",
+        "price": "30,00 €",
+        "type": "camisola",
+        "local_image": "assets/images/loja/camisola-75-anos-gd-vialonga.webp"
+    },
+    {
+        "title": "Camisola Principal GD Vialonga 26/27",
+        "url": "https://sakproject.com/product/camisola-principal-gd-vialonga-26-27/",
+        "image": "https://sakproject.com/wp-content/uploads/2026/08/GD-Vialonga-CAMISOLA-KIT1-600x600.webp",
+        "price": "25,00 €",
+        "type": "camisola",
+        "local_image": "assets/images/loja/camisola-principal-gd-vialonga-2627.webp"
+    },
+    {
+        "title": "Camisola Alternativo GD Vialonga 26/27",
+        "url": "https://sakproject.com/product/camisola-alternativo-gd-vialonga-26-27/",
+        "image": "https://sakproject.com/wp-content/uploads/2026/08/GD-Vialonga-CAMISOLA-KIT2-600x600.webp",
+        "price": "25,00 €",
+        "type": "camisola",
+        "local_image": "assets/images/loja/camisola-alternativo-gd-vialonga-2627.webp"
+    },
+    {
+        "title": "Camisola GR GD Vialonga 26/27",
+        "url": "https://sakproject.com/product/camisola-gr-gd-vialonga-26-27/",
+        "image": "https://sakproject.com/wp-content/uploads/2026/08/GD-Vialonga-CAMISOLA-GK2-600x600.webp",
+        "price": "25,00 €",
+        "type": "camisola",
+        "local_image": "assets/images/loja/camisola-gr-gd-vialonga-2627.webp"
+    },
+    {
+        "title": "Kit Jogo 75 Anos GD Vialonga",
+        "url": "https://sakproject.com/product/kit-jogo-75-anos-gd-vialonga/",
+        "image": "https://sakproject.com/wp-content/uploads/2026/08/GD-Vialonga-KIT75-600x600.webp",
+        "price": "46,50 €",
+        "type": "kit",
+        "local_image": "assets/images/loja/kit-jogo-75-anos-gd-vialonga.webp"
+    },
+    {
+        "title": "Kit Jogo Principal GD Vialonga 26/27",
+        "url": "https://sakproject.com/product/kit-jogo-principal-gd-vialonga-26-27/",
+        "image": "https://sakproject.com/wp-content/uploads/2026/08/GD-Vialonga-KIT1-600x600.webp",
+        "price": "41,50 €",
+        "type": "kit",
+        "local_image": "assets/images/loja/kit-jogo-principal-gd-vialonga-2627.webp"
+    },
+    {
+        "title": "Kit Jogo Alternativo GD Vialonga 26/27",
+        "url": "https://sakproject.com/product/kit-jogo-alternativo-gd-vialonga-26-27/",
+        "image": "https://sakproject.com/wp-content/uploads/2026/08/GD-Vialonga-KIT2-600x600.webp",
+        "price": "41,50 €",
+        "type": "kit",
+        "local_image": "assets/images/loja/kit-jogo-alternativo-gd-vialonga-2627.webp"
+    },
+    {
+        "title": "Meias GD Vialonga 26/27",
+        "url": "https://sakproject.com/product/meias-gd-vialonga-26-27/",
+        "image": "https://sakproject.com/wp-content/uploads/2026/08/MEIA-KIT1-600x600.webp",
+        "price": "5,50 €",
+        "type": "meias",
+        "local_image": "assets/images/loja/meias-gd-vialonga-2627.webp"
+    },
+    {
+        "title": "Meias Treino GD Vialonga",
+        "url": "https://sakproject.com/product/meias-treino-gd-vialonga/",
+        "image": "https://sakproject.com/wp-content/uploads/2026/08/MEIA-TREINO-A-600x600.webp",
+        "price": "5,50 €",
+        "type": "meias",
+        "local_image": "assets/images/loja/meias-treino-gd-vialonga.webp"
+    },
+    {
+        "title": "Mochila GD Vialonga",
+        "url": "https://sakproject.com/product/mochila-gd-vialonga/",
+        "image": "https://sakproject.com/wp-content/uploads/2026/08/GD-Vialonga-MOCHILA-P-1-600x600.webp",
+        "price": "22,00 €",
+        "type": "acessorio",
+        "local_image": "assets/images/loja/mochila-gd-vialonga.webp"
+    },
+    {
+        "title": "Camisola de fecho GD Vialonga",
+        "url": "https://sakproject.com/product/camisola-de-fecho-gd-vialonga/",
+        "image": "https://sakproject.com/wp-content/uploads/2026/08/GD-Vialonga-CAMISOLA-DE-FECHO-B-600x600.webp",
+        "price": "27,50 €",
+        "type": "camisola",
+        "local_image": "assets/images/loja/camisola-de-fecho-gd-vialonga.webp"
+    },
+    {
+        "title": "Fato de Treino GD Vialonga",
+        "url": "https://sakproject.com/product/fato-de-treino-gd-vialonga/",
+        "image": "https://sakproject.com/wp-content/uploads/2026/08/GD-Vialonga-HODDIE-A-600x600.webp",
+        "price": "45,00 €",
+        "type": "fato-treino",
+        "local_image": "assets/images/loja/fato-de-treino-gd-vialonga.webp"
+    },
+    {
+        "title": "Kit Jogo GR GD Vialonga 26/27",
+        "url": "https://sakproject.com/product/kit-jogo-gr-gd-vialonga-26-27/",
+        "image": "https://sakproject.com/wp-content/uploads/2026/08/GD-Vialonga-GK2-600x600.webp",
+        "price": "41,50 €",
+        "type": "kit",
+        "local_image": "assets/images/loja/kit-jogo-gr-gd-vialonga-2627.webp"
+    },
+    {
+        "title": "Meias GR GD Vialonga 26/27",
+        "url": "https://sakproject.com/product/meias-gr-gd-vialonga-26-27/",
+        "image": "https://sakproject.com/wp-content/uploads/2026/08/MEIA-GK1-600x600.webp",
+        "price": "5,50 €",
+        "type": "meias",
+        "local_image": "assets/images/loja/meias-gr-gd-vialonga-2627.webp"
+    },
+    {
+        "title": "Polo Saída GD Vialonga",
+        "url": "https://sakproject.com/product/polo-saida-gd-vialonga/",
+        "image": "https://sakproject.com/wp-content/uploads/2026/08/GD-Vialonga-POLO-A-HOMEM-600x600.webp",
+        "price": "17,50 €",
+        "type": "polo",
+        "local_image": "assets/images/loja/polo-saida-gd-vialonga.webp"
+    },
+    {
+        "title": "SAK MORPH GD Vialonga",
+        "url": "https://sakproject.com/product/sak-morph-gd-vialonga/",
+        "image": "https://sakproject.com/wp-content/uploads/2026/08/VIALONGA_CG-MORPH-600x600.webp",
+        "price": "49,90 €",
+        "type": "equipamento",
+        "local_image": "assets/images/loja/sak-morph-gd-vialonga.webp"
+    },
+    {
+        "title": "SAK SHAPE GD Vialonga",
+        "url": "https://sakproject.com/product/sak-shape-gd-vialonga/",
+        "image": "https://sakproject.com/wp-content/uploads/2026/08/VIALONGA_CG-SHAPE-600x600.webp",
+        "price": "29,90 €",
+        "type": "equipamento",
+        "local_image": "assets/images/loja/sak-shape-gd-vialonga.webp"
+    },
+    {
+        "title": "T-shirt Saída GD Vialonga",
+        "url": "https://sakproject.com/product/t-shirt-saida-gd-vialonga/",
+        "image": "https://sakproject.com/wp-content/uploads/2026/08/GD-Vialonga-TSHIRT-CAUSAL-A-HOMEM-600x600.webp",
+        "price": "15,00 €",
+        "type": "equipamento",
+        "local_image": "assets/images/loja/t-shirt-saida-gd-vialonga.webp"
+    },
+    {
+        "title": "T-shirt Treino GD Vialonga",
+        "url": "https://sakproject.com/product/t-shirt-treino-gd-vialonga/",
+        "image": "https://sakproject.com/wp-content/uploads/2026/08/GD-Vialonga-TSHIRT-TREINO-A-HOMEM-600x600.webp",
+        "price": "8,00 €",
+        "type": "equipamento",
+        "local_image": "assets/images/loja/t-shirt-treino-gd-vialonga.webp"
+    },
+    {
+        "title": "Calças Fato de Treino GD Vialonga",
+        "url": "https://sakproject.com/product/calcas-fato-de-treino-gd-vialonga/",
+        "image": "https://sakproject.com/wp-content/uploads/2025/07/Calcas-Treino-Frente-600x600.webp",
+        "price": "22,00 €",
+        "type": "fato-treino",
+        "local_image": "assets/images/loja/calcas-fato-de-treino-gd-vialonga.webp"
+    },
+    {
+        "title": "Camisola Fato de Treino GD Vialonga",
+        "url": "https://sakproject.com/product/camisola-fato-de-treino-gd-vialonga/",
+        "image": "https://sakproject.com/wp-content/uploads/2026/08/GD-Vialonga-HODDIE-A-600x600.webp",
+        "price": "25,00 €",
+        "type": "camisola",
+        "local_image": "assets/images/loja/camisola-fato-de-treino-gd-vialonga.webp"
+    },
+    {
+        "title": "Casaco Fato de Treino GD Vialonga",
+        "url": "https://sakproject.com/product/casaco-fato-de-treino-gd-vialonga/",
+        "image": "https://sakproject.com/wp-content/uploads/2026/08/Fato-de-Treino-Casaco-Frente-GD-VIALONGA-600x600.webp",
+        "price": "35,00 €",
+        "type": "agasalho",
+        "local_image": "assets/images/loja/casaco-fato-de-treino-gd-vialonga.webp"
+    },
+    {
+        "title": "Corta vento Criança GD Vialonga",
+        "url": "https://sakproject.com/product/corta-vento-crianca-gd-vialonga/",
+        "image": "https://sakproject.com/wp-content/uploads/2026/08/GD-Vialonga-CORTA-VENTO-CRIANCA-600x600.webp",
+        "price": "23,50 €",
+        "type": "equipamento",
+        "local_image": "assets/images/loja/corta-vento-crianca-gd-vialonga.webp"
+    },
+    {
+        "title": "Kispo GD Vialonga",
+        "url": "https://sakproject.com/product/kispo-gd-vialonga/",
+        "image": "https://sakproject.com/wp-content/uploads/2026/08/GD-Vialonga-KISPO-600x600.webp",
+        "price": "50,00 €",
+        "type": "equipamento",
+        "local_image": "assets/images/loja/kispo-gd-vialonga.webp"
+    }
+]

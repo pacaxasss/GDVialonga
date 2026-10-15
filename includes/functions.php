@@ -17,6 +17,22 @@ function formatDateLong(string $date): string {
 }
 
 // ── Labels ─────────────────────────────────────────
+function nationalityLabel(string $code): string {
+    $map = [
+        'PT' => ['flag' => '🇵🇹', 'name' => 'Portugal'],
+        'GW' => ['flag' => '🇬🇼', 'name' => 'Guiné-Bissau'],
+        'SN' => ['flag' => '🇸🇳', 'name' => 'Senegal'],
+        'CV' => ['flag' => '🇨🇻', 'name' => 'Cabo Verde'],
+        'BR' => ['flag' => '🇧🇷', 'name' => 'Brasil'],
+        'AO' => ['flag' => '🇦🇴', 'name' => 'Angola'],
+        'ST' => ['flag' => '🇸🇹', 'name' => 'São Tomé e Príncipe'],
+        'MZ' => ['flag' => '🇲🇿', 'name' => 'Moçambique'],
+    ];
+    $code  = strtoupper(trim($code));
+    $entry = $map[$code] ?? ['flag' => '🏳️', 'name' => $code];
+    return trim($entry['flag'] . ' ' . $entry['name']);
+}
+
 function positionLabel(string $p): string {
     return match($p) {
         'goalkeeper'=>'Guarda-Redes','defender'=>'Defesa',

@@ -55,46 +55,55 @@ Substituir o valor de exemplo por um segredo aleatório de pelo menos 14 caracte
 ```
 gdvialonga-web/
 │
-├── config.php              ← Configuração global (senha admin, época, etc.)
+├── config.php              ← Configuração global (sessões, segurança, época)
+├── index.php               ← Homepage (ponto de entrada público)
+├── .htaccess               ← Regras de reescrita limpa para pages/ e segurança
 │
-├── index.php               ← Homepage
-├── o-clube.php             ← Sobre o clube
-├── noticias.php            ← Lista de notícias
-├── noticia.php             ← Artigo individual
-├── futebol.php             ← Resultados & Classificação
-├── plantel.php             ← Plantéis
-├── formacao.php            ← Formação (inscrições)
-├── contactos.php           ← Contactos
+├── pages/                  ← Páginas públicas do website
+│   ├── o-clube.php         ← Sobre o clube e história
+│   ├── futebol.php         ← Futebol sénior, resultados e classificação
+│   ├── plantel.php         ← Plantéis e fichas de atletas
+│   ├── formacao.php        ← Formação e inscrições
+│   ├── noticias.php        ← Arquivo de notícias
+│   ├── noticia.php         ← Artigo individual
+│   ├── loja.php            ← Loja oficial de equipamentos GDV
+│   ├── patrocinadores.php  ← Patrocinadores oficiais
+│   └── contactos.php       ← Formulário e contactos do clube
 │
-├── admin/
+├── admin/                  ← Painel de administração
 │   ├── login.php           ← Login do admin
-│   ├── logout.php
+│   ├── logout.php          ← Logout
 │   ├── index.php           ← Dashboard
-│   ├── noticias.php        ← CRUD notícias
-│   ├── resultados.php      ← CRUD jogos/resultados
+│   ├── noticias.php        ← Gestão de notícias
+│   ├── resultados.php      ← Gestão de jogos e resultados
 │   ├── classificacao.php   ← Editor de classificação
-│   └── assets/admin.css    ← Estilos do painel
+│   └── seguranca.php       ← Gestão de credenciais
 │
-├── includes/
-│   ├── config.php          ← (carregado via config.php na raiz)
-│   ├── db.php              ← SQLite: conexão, schema, seed automático
-│   ├── auth.php            ← Autenticação de sessão
-│   ├── functions.php       ← Funções públicas (news, matches, standings)
-│   ├── header.php          ← Header do site público
-│   └── footer.php          ← Footer do site público
+├── includes/               ← Componentes e bibliotecas partilhadas
+│   ├── db.php              ← Conexão e esquemas SQLite
+│   ├── auth.php            ← Autenticação e controlo de sessão
+│   ├── functions.php       ← Lógica de negócio e dados públicos
+│   ├── fpf.php             ← Sincronização oficial FPF
+│   ├── header.php          ← Cabeçalho e navegação
+│   └── footer.php          ← Rodapé do website
 │
-├── data/
-│   ├── gdvialonga.db       ← Base de dados SQLite (criada automaticamente)
-│   ├── news.json           ← Seed inicial de notícias
-│   ├── matches.json        ← Seed inicial de jogos
-│   ├── standings.json      ← Seed inicial de classificação
-│   ├── players.json        ← Dados de jogadores
-│   └── sponsors.json       ← Patrocinadores
+├── data/                   ← Dados estruturados e persistência
+│   ├── gdvialonga.db       ← Base de dados SQLite
+│   ├── news.json           ← Dados e artigos de notícias
+│   ├── matches.json        ← Jogos e calendário
+│   ├── standings.json      ← Tabela classificativa
+│   ├── players.json        ← Atletas e equipa técnica
+│   ├── products.json       ← Produtos da loja oficial
+│   └── sponsors.json       ← Patrocinadores oficiais
 │
-└── assets/
-    ├── css/style.css       ← Estilos do site público
-    ├── js/main.js          ← JavaScript público
-    └── images/             ← Imagens
+├── tools/                  ← Utilitários e scripts CLI
+│   ├── sync_fpf.php        ← Sincronizador de dados FPF
+│   └── generate_player_avatars.php ← Gerador de avatares placeholder
+│
+└── assets/                 ← Recursos estáticos
+    ├── css/style.css       ← Folha de estilos global
+    ├── js/main.js          ← Scripts interativos
+    └── images/             ← Imagens, logótipos e fotos de jogadores
 ```
 
 ---
@@ -155,6 +164,33 @@ Para sincronizar pela linha de comandos:
 ```
 
 Neste computador, a tarefa `GDVialonga-FPF-Sync` já está configurada para executar diariamente às 23:00. Noutra instalação Windows, criar uma tarefa no Agendador de Tarefas para executar o comando acima após as jornadas. Os IDs da competição e da época estão em `config.php` e devem ser atualizados no início de cada temporada.
+
+---
+
+## Plantéis, Fotos e Estatísticas
+
+O plantel de cada escalão vive em `data/players.json`. Cada jogador tem:
+
+| Campo | Descrição |
+|-------|-----------|
+| `number` | Número de camisola (`0` = sem número, usado pela equipa técnica) |
+| `name`, `position`, `nationality`, `age` | Identificação (posições: `goalkeeper`, `defender`, `midfielder`, `forward`, `coach`, `staff`) |
+| `photo` | Caminho da fotografia (`assets/images/players/...`) |
+| `clubs` | Clubes por onde passou, do mais recente para o mais antigo |
+| `goals`, `assists` | Golos e assistências na época |
+| `bio` | Pequena biografia apresentada na ficha do jogador |
+
+Na página **Plantéis** (`plantel.php`), cada cartão mostra a foto, o número, a posição, a nacionalidade e os golos/assistências, e abre uma ficha completa (modal acessível por rato e por teclado) com nome, idade, percurso de clubes e biografia.
+
+### Fotografias
+
+Foram gerados retratos *placeholder* em `assets/images/players/` com as cores do clube e o número de camisola. Para publicar fotografias reais, basta substituir o ficheiro indicado no campo `photo` (mesmo nome e formato `.png`); o site ajusta a imagem automaticamente. Para voltar a gerar os placeholders:
+
+```powershell
+& 'C:\xampp\php\php.exe' 'C:\xampp\htdocs\gdvialonga-web\tools\generate_player_avatars.php'
+```
+
+Se faltar uma fotografia, o cartão recorre a um ícone de silhueta (sem quebrar o layout).
 
 ---
 

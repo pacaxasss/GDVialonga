@@ -1,1 +1,2067 @@
-{"squads":[{"id":"seniors","name":"Equipa Sénior","competition":"Divisão de Honra AF Lisboa","coach":"José Manuel Rodrigues","players":[{"id":1,"number":1,"name":"Miguel Ferreira","position":"goalkeeper","nationality":"PT","age":29},{"id":2,"number":13,"name":"Afonso Almeida","position":"goalkeeper","nationality":"PT","age":22},{"id":3,"number":2,"name":"Ricardo Matos","position":"defender","nationality":"PT","age":27},{"id":4,"number":3,"name":"Carlos Sousa","position":"defender","nationality":"PT","age":31},{"id":5,"number":4,"name":"Mamadu Baldé","position":"defender","nationality":"GW","age":24},{"id":6,"number":5,"name":"Tiago Fernandes","position":"defender","nationality":"PT","age":26},{"id":7,"number":6,"name":"Paulo Silva","position":"defender","nationality":"PT","age":28},{"id":8,"number":14,"name":"Rafael Carvalho","position":"defender","nationality":"PT","age":23},{"id":9,"number":7,"name":"Renato Silva","position":"midfielder","nationality":"PT","age":25},{"id":10,"number":8,"name":"Simão Pereira","position":"midfielder","nationality":"PT","age":30},{"id":11,"number":10,"name":"Bruno Lopes","position":"midfielder","nationality":"PT","age":26},{"id":12,"number":15,"name":"Keita Diallo","position":"midfielder","nationality":"SN","age":23},{"id":13,"number":16,"name":"Pedro Gonçalves","position":"midfielder","nationality":"PT","age":28},{"id":14,"number":17,"name":"Luís Barbosa","position":"midfielder","nationality":"CV","age":27},{"id":15,"number":9,"name":"Fábio Tavares","position":"forward","nationality":"PT","age":24},{"id":16,"number":11,"name":"Jordan Mendes","position":"forward","nationality":"BR","age":22},{"id":17,"number":18,"name":"Nelson Costa","position":"forward","nationality":"PT","age":29},{"id":18,"number":19,"name":"André Barros","position":"forward","nationality":"PT","age":21},{"id":19,"number":0,"name":"José Manuel Rodrigues","position":"coach","nationality":"PT","age":48},{"id":20,"number":0,"name":"Nuno Esperança","position":"coach","nationality":"PT","age":42}]},{"id":"u19","name":"Juniores (Sub-19)","competition":"Campeonato Distrital Juniores","coach":"Luís Fernandes","players":[{"id":101,"number":1,"name":"Gonçalo Reis","position":"goalkeeper","nationality":"PT","age":18},{"id":102,"number":4,"name":"Tomás Oliveira","position":"defender","nationality":"PT","age":17},{"id":103,"number":5,"name":"João Soares","position":"defender","nationality":"PT","age":18},{"id":104,"number":3,"name":"Martim Santos","position":"defender","nationality":"PT","age":17},{"id":105,"number":6,"name":"Afonso Costa","position":"midfielder","nationality":"PT","age":18},{"id":106,"number":8,"name":"Rodrigo Lima","position":"midfielder","nationality":"PT","age":17},{"id":107,"number":10,"name":"Diogo Pinto","position":"forward","nationality":"PT","age":18},{"id":108,"number":9,"name":"Nuno Figueira","position":"forward","nationality":"PT","age":17}]}]}
+{
+    "season": "2026/27",
+    "updated_at": "2026-10-15",
+    "squads": [
+        {
+            "id": "seniors",
+            "name": "Equipa Sénior",
+            "competition": "AF Lisboa 1ª Divisão SABSEG",
+            "coach": "José Manuel Rodrigues",
+            "players": [
+                {
+                    "id": 1,
+                    "number": 1,
+                    "name": "Dinis Coelho",
+                    "position": "goalkeeper",
+                    "nationality": "PT",
+                    "age": 21,
+                    "clubs": [
+                        "GD Vialonga (2026-)",
+                        "Associação Murteirense",
+                        "CAD",
+                        "Benfica"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/1-dinis-coelho.png",
+                    "zz_id": "1114851"
+                },
+                {
+                    "id": 2,
+                    "number": 24,
+                    "name": "Tomás Camisão",
+                    "position": "goalkeeper",
+                    "nationality": "PT",
+                    "age": 19,
+                    "clubs": [
+                        "GD Vialonga (2026-)",
+                        "At. Povoense",
+                        "GS Loures",
+                        "FC Alverca"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/24-tomas-camisao.png",
+                    "zz_id": "867095"
+                },
+                {
+                    "id": 3,
+                    "number": 88,
+                    "name": "Ricardo Cabanas",
+                    "position": "goalkeeper",
+                    "nationality": "PT",
+                    "age": 34,
+                    "clubs": [
+                        "GD Vialonga (2026-)",
+                        "At. Povoense",
+                        "Ericeirense",
+                        "Fut. Benfica"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/88-ricardo-cabanas.png",
+                    "zz_id": "450032"
+                },
+                {
+                    "id": 4,
+                    "number": 99,
+                    "name": "Léo Loureiro",
+                    "position": "goalkeeper",
+                    "nationality": "PT",
+                    "age": 24,
+                    "clubs": [
+                        "GD Vialonga (2026-)",
+                        "Associação Murteirense",
+                        "At. Povoense",
+                        "Carregado"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/99-leo-loureiro.png",
+                    "zz_id": "683429"
+                },
+                {
+                    "id": 5,
+                    "number": 2,
+                    "name": "Rúben Figueiredo",
+                    "position": "defender",
+                    "nationality": "PT",
+                    "age": 23,
+                    "clubs": [
+                        "GD Vialonga (2026-)",
+                        "Associação Murteirense",
+                        "At. Povoense",
+                        "Bragadense"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/2-ruben-figueiredo.png",
+                    "zz_id": "606865"
+                },
+                {
+                    "id": 6,
+                    "number": 4,
+                    "name": "Ivo Dias",
+                    "position": "defender",
+                    "nationality": "PT",
+                    "age": 34,
+                    "clubs": [
+                        "GD Vialonga (2026-)",
+                        "Associação Murteirense",
+                        "At. Povoense",
+                        "GS Loures"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/4-ivo-dias.png",
+                    "zz_id": "156153"
+                },
+                {
+                    "id": 7,
+                    "number": 13,
+                    "name": "Miguel Cravo",
+                    "position": "defender",
+                    "nationality": "PT",
+                    "age": 29,
+                    "clubs": [
+                        "GD Vialonga (2026-)",
+                        "Associação Murteirense",
+                        "At. Povoense",
+                        "Santa Iria"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/13-miguel-cravo.png",
+                    "zz_id": "536466"
+                },
+                {
+                    "id": 8,
+                    "number": 27,
+                    "name": "Pedro Roxo",
+                    "position": "defender",
+                    "nationality": "PT",
+                    "age": 25,
+                    "clubs": [
+                        "GD Vialonga (2026-)",
+                        "At. Povoense",
+                        "Moura",
+                        "Linda-a-Velha"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/27-pedro-roxo.png",
+                    "zz_id": "302606"
+                },
+                {
+                    "id": 9,
+                    "number": 28,
+                    "name": "João Afonso",
+                    "position": "defender",
+                    "nationality": "PT",
+                    "age": 28,
+                    "clubs": [
+                        "GD Vialonga (2026-)",
+                        "At. Povoense",
+                        "Fut. Benfica",
+                        "Sacavenense"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/28-joao-afonso.png",
+                    "zz_id": "413258"
+                },
+                {
+                    "id": 10,
+                    "number": 32,
+                    "name": "Daniel Caruso",
+                    "position": "defender",
+                    "nationality": "PT",
+                    "age": 26,
+                    "clubs": [
+                        "GD Vialonga (2026-)",
+                        "Associação Murteirense",
+                        "At. Tojal",
+                        "Alverca"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/32-daniel-caruso.png",
+                    "zz_id": "691012"
+                },
+                {
+                    "id": 11,
+                    "number": 80,
+                    "name": "Arthur Divino",
+                    "position": "defender",
+                    "nationality": "BR",
+                    "age": 24,
+                    "clubs": [
+                        "GD Vialonga (2026-)",
+                        "Associação Murteirense",
+                        "At. Povoense",
+                        "Amarelejense"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/80-arthur-divino.png",
+                    "zz_id": "793454"
+                },
+                {
+                    "id": 12,
+                    "number": 12,
+                    "name": "Adilson",
+                    "position": "defender",
+                    "nationality": "PT",
+                    "age": 0,
+                    "clubs": [
+                        "GD Vialonga (2026-)",
+                        "Associação Murteirense",
+                        "At. Povoense",
+                        "Oriental"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/12-adilson.png",
+                    "zz_id": "119640"
+                },
+                {
+                    "id": 13,
+                    "number": 66,
+                    "name": "Tomás Vale",
+                    "position": "defender",
+                    "nationality": "PT",
+                    "age": 19,
+                    "clubs": [
+                        "GD Vialonga (2026-)",
+                        "At. Povoense",
+                        "FC Alverca",
+                        "Alverca"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/66-tomas-vale.png",
+                    "zz_id": "702135"
+                },
+                {
+                    "id": 14,
+                    "number": 5,
+                    "name": "João Faia",
+                    "position": "defender",
+                    "nationality": "PT",
+                    "age": 27,
+                    "clubs": [
+                        "GD Vialonga (2026-)",
+                        "GD Forense",
+                        "AR Porto Alto",
+                        "Juventude Castanheira"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/5-joao-faia.png",
+                    "zz_id": "283146"
+                },
+                {
+                    "id": 15,
+                    "number": 17,
+                    "name": "Cláudio Fortes",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 29,
+                    "clubs": [
+                        "GD Vialonga (2026-)",
+                        "Associação Murteirense",
+                        "At. Povoense",
+                        "Santa Iria"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/17-claudio-fortes.png",
+                    "zz_id": "549213"
+                },
+                {
+                    "id": 16,
+                    "number": 18,
+                    "name": "Rafael Ribeiro",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 25,
+                    "clubs": [
+                        "GD Vialonga (2026-)",
+                        "At. Tojal",
+                        "Alverca",
+                        "Sacavenense"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/18-rafael-ribeiro.png",
+                    "zz_id": "302590"
+                },
+                {
+                    "id": 17,
+                    "number": 30,
+                    "name": "Ibraima Djedjo",
+                    "position": "midfielder",
+                    "nationality": "GW",
+                    "age": 30,
+                    "clubs": [
+                        "GD Vialonga (2026-)",
+                        "At. Tojal",
+                        "Arsenal 72",
+                        "Pinhelenses"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/30-ibraima-djedjo.png",
+                    "zz_id": "1242966"
+                },
+                {
+                    "id": 18,
+                    "number": 94,
+                    "name": "Léo Mofreita",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 32,
+                    "clubs": [
+                        "GD Vialonga (2026-)",
+                        "Associação Murteirense",
+                        "At. Povoense",
+                        "GS Loures"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/94-leo-mofreita.png",
+                    "zz_id": "143911"
+                },
+                {
+                    "id": 19,
+                    "number": 6,
+                    "name": "Ricardo Sousa",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 20,
+                    "clubs": [
+                        "GD Vialonga (2026-)",
+                        "Associação Murteirense",
+                        "SC Sanjoanense",
+                        "Sacavenense"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/6-ricardo-sousa.png",
+                    "zz_id": "745392"
+                },
+                {
+                    "id": 20,
+                    "number": 7,
+                    "name": "Wilson Veiga",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 29,
+                    "clubs": [
+                        "GD Vialonga (2026-)",
+                        "At. Povoense",
+                        "At. Tojal",
+                        "SC Sanjoanense"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/7-wilson-veiga.png",
+                    "zz_id": "468928"
+                },
+                {
+                    "id": 21,
+                    "number": 8,
+                    "name": "André Oliveira",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 22,
+                    "clubs": [
+                        "GD Vialonga (2026-)",
+                        "Associação Murteirense",
+                        "At. Povoense",
+                        "FC Despertar"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/8-andre-oliveira.png",
+                    "zz_id": "160504"
+                },
+                {
+                    "id": 22,
+                    "number": 10,
+                    "name": "Nuno Mouralinho",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 27,
+                    "clubs": [
+                        "GD Vialonga (2026-)",
+                        "Associação Murteirense",
+                        "At. Povoense",
+                        "Santa Iria"
+                    ],
+                    "goals": 1,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/10-nuno-mouralinho.png",
+                    "zz_id": "166244"
+                },
+                {
+                    "id": 23,
+                    "number": 11,
+                    "name": "Diogo Teixeira",
+                    "position": "forward",
+                    "nationality": "PT",
+                    "age": 22,
+                    "clubs": [
+                        "GD Vialonga (2026-)",
+                        "Associação Murteirense",
+                        "At. Povoense",
+                        "Sacavenense"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/11-diogo-teixeira.png",
+                    "zz_id": "667529"
+                },
+                {
+                    "id": 24,
+                    "number": 19,
+                    "name": "Rodrigo Oliveira",
+                    "position": "forward",
+                    "nationality": "PT",
+                    "age": 20,
+                    "clubs": [
+                        "GD Vialonga (2026-)",
+                        "Associação Murteirense",
+                        "At. Povoense",
+                        "Amora FC"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/19-rodrigo-oliveira.png",
+                    "zz_id": "1164557"
+                },
+                {
+                    "id": 25,
+                    "number": 20,
+                    "name": "Esmael",
+                    "position": "forward",
+                    "nationality": "PT",
+                    "age": 23,
+                    "clubs": [
+                        "GD Vialonga (2026-)",
+                        "Vilafranquense",
+                        "Monte Trigo",
+                        "Gafetense"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/20-esmael.png",
+                    "zz_id": "1079190"
+                },
+                {
+                    "id": 26,
+                    "number": 21,
+                    "name": "Alex",
+                    "position": "forward",
+                    "nationality": "AO",
+                    "age": 35,
+                    "clubs": [
+                        "GD Vialonga (2026-)",
+                        "Associação Murteirense",
+                        "Jerumelo",
+                        "At. Povoense"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/21-alex.png",
+                    "zz_id": "689298"
+                },
+                {
+                    "id": 27,
+                    "number": 29,
+                    "name": "Guilherme Gomes",
+                    "position": "forward",
+                    "nationality": "PT",
+                    "age": 24,
+                    "clubs": [
+                        "GD Vialonga (2026-)",
+                        "Associação Murteirense",
+                        "At. Povoense",
+                        "Santa Iria"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/29-guilherme-gomes.png",
+                    "zz_id": "300565"
+                },
+                {
+                    "id": 28,
+                    "number": 77,
+                    "name": "Daniel Santos",
+                    "position": "forward",
+                    "nationality": "PT",
+                    "age": 19,
+                    "clubs": [
+                        "GD Vialonga (2026-)",
+                        "Juventude Castanheira",
+                        "Benfica",
+                        "FC Porto"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/77-daniel-santos.png",
+                    "zz_id": "1167249"
+                },
+                {
+                    "id": 29,
+                    "number": 9,
+                    "name": "David Inácio",
+                    "position": "forward",
+                    "nationality": "PT",
+                    "age": 30,
+                    "clubs": [
+                        "GD Vialonga (2026-)",
+                        "Associação Murteirense",
+                        "At. Povoense"
+                    ],
+                    "goals": 1,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/9-david-inacio.png",
+                    "zz_id": "747336"
+                }
+            ]
+        },
+        {
+            "id": "u19",
+            "name": "Juniores (Sub-19)",
+            "competition": "AF Lisboa Juniores A 2ª Divisão",
+            "coach": "Wilson Danfa",
+            "players": [
+                {
+                    "id": 101,
+                    "number": 0,
+                    "name": "Pedro Esteves",
+                    "position": "goalkeeper",
+                    "nationality": "PT",
+                    "age": 16,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u19-101-pedro-esteves.png",
+                    "zz_id": "1159799"
+                },
+                {
+                    "id": 102,
+                    "number": 0,
+                    "name": "Fábio Ramos",
+                    "position": "goalkeeper",
+                    "nationality": "CV",
+                    "age": 17,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u19-102-fabio-ramos.png",
+                    "zz_id": "1155949"
+                },
+                {
+                    "id": 103,
+                    "number": 12,
+                    "name": "Pedro Pedroso",
+                    "position": "goalkeeper",
+                    "nationality": "PT",
+                    "age": 18,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/12-pedro-pedroso.png",
+                    "zz_id": "1799392"
+                },
+                {
+                    "id": 104,
+                    "number": 16,
+                    "name": "Rafael Puharskyy",
+                    "position": "goalkeeper",
+                    "nationality": "PT",
+                    "age": 18,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/16-rafael-puharskyy.png",
+                    "zz_id": "1165234"
+                },
+                {
+                    "id": 105,
+                    "number": 22,
+                    "name": "Diogo Galvão",
+                    "position": "defender",
+                    "nationality": "PT",
+                    "age": 18,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/22-diogo-galvao.png",
+                    "zz_id": "1159331"
+                },
+                {
+                    "id": 106,
+                    "number": 26,
+                    "name": "Francisco Nazaré",
+                    "position": "defender",
+                    "nationality": "PT",
+                    "age": 18,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/26-francisco-nazare.png",
+                    "zz_id": "917843"
+                },
+                {
+                    "id": 107,
+                    "number": 0,
+                    "name": "Fernando José",
+                    "position": "defender",
+                    "nationality": "PT",
+                    "age": 17,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u19-107-fernando-jose.png",
+                    "zz_id": "1156234"
+                },
+                {
+                    "id": 108,
+                    "number": 0,
+                    "name": "Lourenço Gaspar",
+                    "position": "defender",
+                    "nationality": "PT",
+                    "age": 17,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u19-108-lourenco-gaspar.png",
+                    "zz_id": "1159268"
+                },
+                {
+                    "id": 109,
+                    "number": 0,
+                    "name": "Rodrigo Henriques",
+                    "position": "defender",
+                    "nationality": "PT",
+                    "age": 17,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u19-109-rodrigo-henriques.png",
+                    "zz_id": "1159376"
+                },
+                {
+                    "id": 110,
+                    "number": 3,
+                    "name": "Rodrigo Baptista",
+                    "position": "defender",
+                    "nationality": "PT",
+                    "age": 18,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/3-rodrigo-baptista.png",
+                    "zz_id": "540617"
+                },
+                {
+                    "id": 111,
+                    "number": 4,
+                    "name": "Lau",
+                    "position": "defender",
+                    "nationality": "PT",
+                    "age": 18,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/4-lau.png",
+                    "zz_id": "1116022"
+                },
+                {
+                    "id": 112,
+                    "number": 5,
+                    "name": "Gonçalo Paulo",
+                    "position": "defender",
+                    "nationality": "PT",
+                    "age": 17,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/5-goncalo-paulo.png",
+                    "zz_id": "1077924"
+                },
+                {
+                    "id": 113,
+                    "number": 0,
+                    "name": "Carlos Couto",
+                    "position": "defender",
+                    "nationality": "PT",
+                    "age": 18,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u19-113-carlos-couto.png",
+                    "zz_id": "1155950"
+                },
+                {
+                    "id": 114,
+                    "number": 8,
+                    "name": "Tomás Costa",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 18,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/8-tomas-costa.png",
+                    "zz_id": "609546"
+                },
+                {
+                    "id": 115,
+                    "number": 14,
+                    "name": "Roma",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 17,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/14-roma.png",
+                    "zz_id": "993035"
+                },
+                {
+                    "id": 116,
+                    "number": 0,
+                    "name": "Kaká",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 18,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u19-116-kaka.png",
+                    "zz_id": "991606"
+                },
+                {
+                    "id": 117,
+                    "number": 2,
+                    "name": "Luca Gomes",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 17,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/2-luca-gomes.png",
+                    "zz_id": "1077982"
+                },
+                {
+                    "id": 118,
+                    "number": 0,
+                    "name": "Duarte Cruz",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 16,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u19-118-duarte-cruz.png",
+                    "zz_id": "1155194"
+                },
+                {
+                    "id": 119,
+                    "number": 0,
+                    "name": "Ricardo Mendes",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 18,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u19-119-ricardo-mendes.png",
+                    "zz_id": "617358"
+                },
+                {
+                    "id": 120,
+                    "number": 0,
+                    "name": "Hélio Salvador",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 17,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u19-120-helio-salvador.png",
+                    "zz_id": "1159719"
+                },
+                {
+                    "id": 121,
+                    "number": 0,
+                    "name": "Afonso Monteiro",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 17,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u19-121-afonso-monteiro.png",
+                    "zz_id": "1045832"
+                },
+                {
+                    "id": 122,
+                    "number": 10,
+                    "name": "Daniel Leal",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 18,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 1,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/10-daniel-leal.png",
+                    "zz_id": "1164385"
+                },
+                {
+                    "id": 123,
+                    "number": 28,
+                    "name": "Luca Iojiban",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 17,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/28-luca-iojiban.png",
+                    "zz_id": "1159169"
+                },
+                {
+                    "id": 124,
+                    "number": 29,
+                    "name": "Gonçalo Vicente",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 17,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 1,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/29-goncalo-vicente.png",
+                    "zz_id": "680620"
+                },
+                {
+                    "id": 125,
+                    "number": 0,
+                    "name": "Leonardo",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 16,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u19-125-leonardo.png",
+                    "zz_id": "1156087"
+                },
+                {
+                    "id": 126,
+                    "number": 0,
+                    "name": "Guilherme Monteiro",
+                    "position": "forward",
+                    "nationality": "PT",
+                    "age": 18,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u19-126-guilherme-monteiro.png",
+                    "zz_id": "1166498"
+                },
+                {
+                    "id": 127,
+                    "number": 7,
+                    "name": "Jelson Gonçalves",
+                    "position": "forward",
+                    "nationality": "PT",
+                    "age": 17,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/7-jelson-goncalves.png",
+                    "zz_id": "924897"
+                },
+                {
+                    "id": 128,
+                    "number": 9,
+                    "name": "Aleksandr Sdobnikov",
+                    "position": "forward",
+                    "nationality": "PT",
+                    "age": 17,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/9-aleksandr-sdobnikov.png",
+                    "zz_id": "1077597"
+                },
+                {
+                    "id": 129,
+                    "number": 11,
+                    "name": "Martim Prazeres",
+                    "position": "forward",
+                    "nationality": "PT",
+                    "age": 18,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/11-martim-prazeres.png",
+                    "zz_id": "983540"
+                },
+                {
+                    "id": 130,
+                    "number": 24,
+                    "name": "Pedro Gonçalves",
+                    "position": "forward",
+                    "nationality": "PT",
+                    "age": 17,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 1,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/24-pedro-goncalves.png",
+                    "zz_id": "1081256"
+                },
+                {
+                    "id": 131,
+                    "number": 27,
+                    "name": "Rafael Marques",
+                    "position": "forward",
+                    "nationality": "PT",
+                    "age": 17,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 1,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/27-rafael-marques.png",
+                    "zz_id": "1159716"
+                }
+            ]
+        },
+        {
+            "id": "u17",
+            "name": "Juvenis A (Sub-17)",
+            "competition": "AF Lisboa Juniores B",
+            "coach": "Equipa Técnica GDV",
+            "players": [
+                {
+                    "id": 201,
+                    "number": 0,
+                    "name": "Afonso Canha",
+                    "position": "goalkeeper",
+                    "nationality": "PT",
+                    "age": 16,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u17-201-afonso-canha.png"
+                },
+                {
+                    "id": 202,
+                    "number": 0,
+                    "name": "Afonso Costa",
+                    "position": "defender",
+                    "nationality": "PT",
+                    "age": 16,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u17-202-afonso-costa.png"
+                },
+                {
+                    "id": 203,
+                    "number": 0,
+                    "name": "Alexandro Sutiman",
+                    "position": "forward",
+                    "nationality": "PT",
+                    "age": 16,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u17-203-alexandro-sutiman.png"
+                },
+                {
+                    "id": 204,
+                    "number": 0,
+                    "name": "André Castanheira",
+                    "position": "defender",
+                    "nationality": "PT",
+                    "age": 16,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u17-204-andre-castanheira.png"
+                },
+                {
+                    "id": 205,
+                    "number": 0,
+                    "name": "Bernardo José",
+                    "position": "goalkeeper",
+                    "nationality": "PT",
+                    "age": 16,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u17-205-bernardo-jose.png"
+                },
+                {
+                    "id": 206,
+                    "number": 0,
+                    "name": "Daniel Marques",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 16,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u17-206-daniel-marques.png"
+                },
+                {
+                    "id": 207,
+                    "number": 0,
+                    "name": "Derciliano Borges",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 16,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u17-207-derciliano-borges.png"
+                },
+                {
+                    "id": 208,
+                    "number": 0,
+                    "name": "Diogo Matias",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 16,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u17-208-diogo-matias.png"
+                },
+                {
+                    "id": 210,
+                    "number": 0,
+                    "name": "Edmilson Carvalho",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 16,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u17-210-edmilson-carvalho.png"
+                },
+                {
+                    "id": 211,
+                    "number": 0,
+                    "name": "Fadinel Semedo",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 16,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u17-211-fadinel-semedo.png"
+                },
+                {
+                    "id": 212,
+                    "number": 0,
+                    "name": "Francisco Salvado",
+                    "position": "forward",
+                    "nationality": "PT",
+                    "age": 16,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u17-212-francisco-salvado.png"
+                },
+                {
+                    "id": 213,
+                    "number": 0,
+                    "name": "Gustavo Pereira",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 16,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u17-213-gustavo-pereira.png"
+                },
+                {
+                    "id": 214,
+                    "number": 0,
+                    "name": "Ibraim Baldé",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 16,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": ""
+                },
+                {
+                    "id": 215,
+                    "number": 0,
+                    "name": "João Pedro Pinheiro",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 16,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u17-215-joao-pedro-pinheiro.png"
+                },
+                {
+                    "id": 216,
+                    "number": 0,
+                    "name": "Martim Lopes",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 16,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u17-216-martim-lopes.png"
+                },
+                {
+                    "id": 217,
+                    "number": 0,
+                    "name": "Miguel Gomes",
+                    "position": "forward",
+                    "nationality": "PT",
+                    "age": 16,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u17-217-miguel-gomes.png"
+                },
+                {
+                    "id": 218,
+                    "number": 0,
+                    "name": "Rafael Castro",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 16,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u17-218-rafael-castro.png"
+                },
+                {
+                    "id": 219,
+                    "number": 0,
+                    "name": "Rafael Rigueira",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 16,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u17-219-rafael-rigueira.png"
+                },
+                {
+                    "id": 220,
+                    "number": 0,
+                    "name": "Renato Oliveira",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 16,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u17-220-renato-oliveira.png"
+                },
+                {
+                    "id": 221,
+                    "number": 0,
+                    "name": "Rodrigo Maravilha",
+                    "position": "defender",
+                    "nationality": "PT",
+                    "age": 16,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u17-221-rodrigo-maravilha.png"
+                },
+                {
+                    "id": 222,
+                    "number": 0,
+                    "name": "Rodrigo VAz Martins",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 16,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u17-222-rodrigo-vaz-martins.png"
+                },
+                {
+                    "id": 223,
+                    "number": 0,
+                    "name": "Ruben Machado",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 16,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u17-223-ruben-machado.png"
+                },
+                {
+                    "id": 224,
+                    "number": 0,
+                    "name": "Salvador Marques",
+                    "position": "forward",
+                    "nationality": "PT",
+                    "age": 16,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u17-224-salvador-marques.png"
+                },
+                {
+                    "id": 225,
+                    "number": 0,
+                    "name": "Santiago Guedes",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 16,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u17-225-santiago-guedes.png"
+                },
+                {
+                    "id": 226,
+                    "number": 0,
+                    "name": "Tomas Duarte",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 16,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u17-226-tomas-duarte.png"
+                },
+                {
+                    "id": 227,
+                    "number": 0,
+                    "name": "Vicente Ricacho",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 16,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u17-227-vicente-ricacho.png"
+                }
+            ]
+        },
+        {
+            "id": "u15",
+            "name": "Iniciados A (Sub-15)",
+            "competition": "AF Lisboa Juniores C III Divisão",
+            "coach": "Márcio Vieira",
+            "players": [
+                {
+                    "id": 301,
+                    "number": 0,
+                    "name": "Afonso Rocha",
+                    "position": "goalkeeper",
+                    "nationality": "PT",
+                    "age": 14,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u15-301-afonso-rocha.png"
+                },
+                {
+                    "id": 302,
+                    "number": 0,
+                    "name": "Antonio Santos",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 14,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u15-302-antonio-santos.png"
+                },
+                {
+                    "id": 303,
+                    "number": 0,
+                    "name": "Arthur Fernandes",
+                    "position": "defender",
+                    "nationality": "PT",
+                    "age": 14,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u15-303-arthur-fernandes.png"
+                },
+                {
+                    "id": 304,
+                    "number": 0,
+                    "name": "Artur Moura",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 14,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u15-304-artur-moura.png"
+                },
+                {
+                    "id": 305,
+                    "number": 0,
+                    "name": "Bruno Batista",
+                    "position": "defender",
+                    "nationality": "PT",
+                    "age": 14,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u15-305-bruno-batista.png"
+                },
+                {
+                    "id": 306,
+                    "number": 0,
+                    "name": "Davi Becker",
+                    "position": "defender",
+                    "nationality": "PT",
+                    "age": 14,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u15-306-davi-becker.png"
+                },
+                {
+                    "id": 307,
+                    "number": 0,
+                    "name": "David Carvalho",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 14,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u15-307-david-carvalho.png"
+                },
+                {
+                    "id": 308,
+                    "number": 0,
+                    "name": "Dinis Silva",
+                    "position": "goalkeeper",
+                    "nationality": "PT",
+                    "age": 14,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u15-308-dinis-silva.png"
+                },
+                {
+                    "id": 309,
+                    "number": 0,
+                    "name": "Francisco Casquinha",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 14,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u15-309-francisco-casquinha.png"
+                },
+                {
+                    "id": 310,
+                    "number": 0,
+                    "name": "Gabriel Rodrigues",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 14,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u15-310-gabriel-rodrigues.png"
+                },
+                {
+                    "id": 311,
+                    "number": 0,
+                    "name": "Gonçalo Coelho",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 14,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u15-311-goncalo-coelho.png"
+                },
+                {
+                    "id": 312,
+                    "number": 0,
+                    "name": "Gonçalo Costa",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 14,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": ""
+                },
+                {
+                    "id": 313,
+                    "number": 0,
+                    "name": "Gonçalo Mendes",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 14,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u15-313-goncalo-mendes.png"
+                },
+                {
+                    "id": 314,
+                    "number": 0,
+                    "name": "Guilherme Dias",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 14,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u15-314-guilherme-dias.png"
+                },
+                {
+                    "id": 315,
+                    "number": 0,
+                    "name": "Guilherme Henriques",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 14,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u15-315-guilherme-henriques.png"
+                },
+                {
+                    "id": 316,
+                    "number": 0,
+                    "name": "Gustavo Passos",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 14,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u15-316-gustavo-passos.png"
+                },
+                {
+                    "id": 317,
+                    "number": 0,
+                    "name": "Josemar Paulo",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 14,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u15-317-josemar-paulo.png"
+                },
+                {
+                    "id": 318,
+                    "number": 0,
+                    "name": "Leandro Delgado",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 14,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u15-318-leandro-delgado.png"
+                },
+                {
+                    "id": 319,
+                    "number": 0,
+                    "name": "Martim Lourenço Lopes",
+                    "position": "forward",
+                    "nationality": "PT",
+                    "age": 14,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u15-319-martim-lourenco-lopes.png"
+                },
+                {
+                    "id": 320,
+                    "number": 0,
+                    "name": "Miguel Gomes",
+                    "position": "forward",
+                    "nationality": "PT",
+                    "age": 14,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u15-320-miguel-gomes.png"
+                },
+                {
+                    "id": 321,
+                    "number": 0,
+                    "name": "Rodrigo Lopes",
+                    "position": "forward",
+                    "nationality": "PT",
+                    "age": 14,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u15-321-rodrigo-lopes.png"
+                },
+                {
+                    "id": 322,
+                    "number": 0,
+                    "name": "Rodrigo Ribeiro",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 14,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u15-322-rodrigo-ribeiro.png"
+                },
+                {
+                    "id": 323,
+                    "number": 0,
+                    "name": "Samir Vicente",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 14,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u15-323-samir-vicente.png"
+                },
+                {
+                    "id": 324,
+                    "number": 0,
+                    "name": "Samuel Carrion",
+                    "position": "forward",
+                    "nationality": "PT",
+                    "age": 14,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u15-324-samuel-carrion.png"
+                },
+                {
+                    "id": 325,
+                    "number": 0,
+                    "name": "Tiago ALves",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 14,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u15-325-tiago-alves.png"
+                },
+                {
+                    "id": 326,
+                    "number": 0,
+                    "name": "Tiago Rodrigues",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 14,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u15-326-tiago-rodrigues.png"
+                }
+            ]
+        },
+        {
+            "id": "u14",
+            "name": "Iniciados B (Sub-14)",
+            "competition": "AF Lisboa Juniores C",
+            "coach": "Eusébio",
+            "players": [
+                {
+                    "id": 401,
+                    "number": 0,
+                    "name": "Bernardo Kassimo",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 13,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u14-401-bernardo-kassimo.png"
+                },
+                {
+                    "id": 402,
+                    "number": 0,
+                    "name": "Cristiano Rasteiro",
+                    "position": "forward",
+                    "nationality": "PT",
+                    "age": 13,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u14-402-cristiano-rasteiro.png"
+                },
+                {
+                    "id": 403,
+                    "number": 0,
+                    "name": "Diego Correia",
+                    "position": "forward",
+                    "nationality": "PT",
+                    "age": 13,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u14-403-diego-correia.png"
+                },
+                {
+                    "id": 404,
+                    "number": 0,
+                    "name": "Enzo Fernandes",
+                    "position": "goalkeeper",
+                    "nationality": "PT",
+                    "age": 13,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u14-404-enzo-fernandes.png"
+                },
+                {
+                    "id": 405,
+                    "number": 0,
+                    "name": "Ivo Grilo",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 13,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u14-405-ivo-grilo.png"
+                },
+                {
+                    "id": 406,
+                    "number": 0,
+                    "name": "José Alves",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 13,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u14-406-jose-alves.png"
+                },
+                {
+                    "id": 407,
+                    "number": 0,
+                    "name": "João Tapadas",
+                    "position": "defender",
+                    "nationality": "PT",
+                    "age": 13,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u14-407-joao-tapadas.png"
+                },
+                {
+                    "id": 408,
+                    "number": 0,
+                    "name": "Martim Sousa",
+                    "position": "defender",
+                    "nationality": "PT",
+                    "age": 13,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u14-408-martim-sousa.png"
+                },
+                {
+                    "id": 409,
+                    "number": 0,
+                    "name": "Rodrigo dos Santos",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 13,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u14-409-rodrigo-dos-santos.png"
+                },
+                {
+                    "id": 410,
+                    "number": 0,
+                    "name": "Santiago Marques",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 13,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u14-410-santiago-marques.png"
+                },
+                {
+                    "id": 411,
+                    "number": 0,
+                    "name": "Tiago Reis",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 13,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u14-411-tiago-reis.png"
+                },
+                {
+                    "id": 412,
+                    "number": 0,
+                    "name": "Tomas Cardoso",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 13,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u14-412-tomas-cardoso.png"
+                },
+                {
+                    "id": 413,
+                    "number": 0,
+                    "name": "Tomas Miranda",
+                    "position": "midfielder",
+                    "nationality": "PT",
+                    "age": 13,
+                    "clubs": [
+                        "GD Vialonga (2026-)"
+                    ],
+                    "goals": 0,
+                    "assists": 0,
+                    "bio": "",
+                    "photo": "assets/images/players/u14-413-tomas-miranda.png"
+                }
+            ]
+        }
+    ]
+}

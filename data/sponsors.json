@@ -1,1 +1,44 @@
-[{"id":1,"name":"Câmara Municipal de Vila Franca de Xira","short":"CM Vila Franca de Xira","tier":"principal"},{"id":2,"name":"Junta de Freguesia de Vialonga","short":"JF Vialonga","tier":"principal"},{"id":3,"name":"Auto Vialonga","short":"Auto Vialonga","tier":"gold"},{"id":4,"name":"Padaria Central Vialonga","short":"Padaria Central","tier":"gold"},{"id":5,"name":"Construções Melo & Filhos","short":"Melo & Filhos","tier":"silver"},{"id":6,"name":"Farmácia Vialonga","short":"Farmácia Vialonga","tier":"silver"},{"id":7,"name":"Restaurante O Vianense","short":"O Vianense","tier":"silver"},{"id":8,"name":"Supermercado Ribeiro","short":"Sup. Ribeiro","tier":"bronze"}]
+[
+    {
+        "id": 1,
+        "name": "Globalshield Cargo Solutions",
+        "short": "Globalshield",
+        "tier": "principal",
+        "category": "Transportes & Logística",
+        "tagline": "Patrocinador Oficial da Época 2026/2027",
+        "description": "Empresa de referência em transportes terrestres de mercadorias nacionais e internacionais, armazenagem e logística com sede em Vialonga. Patrocinador oficial das camisolas de jogo do clube.",
+        "website": "https://gscargo.pt/",
+        "location": "Vialonga",
+        "logo_text": "GS",
+        "logo_image": "assets/images/sponsors/globalshield.png",
+        "active": 1
+    },
+    {
+        "id": 2,
+        "name": "Insurfin Seguros",
+        "short": "Insurfin",
+        "tier": "principal",
+        "category": "Mediação de Seguros",
+        "tagline": "Patrocinador Oficial da Época 2026/2027",
+        "description": "Especialistas em mediação de seguros e consultoria de risco com escritórios em Vialonga (Rua do Aqueduto), oferecendo soluções de proteção para particulares, famílias e empresas.",
+        "website": "https://insurfinbrokers.com/",
+        "location": "Rua do Aqueduto, Quintanilho - Vialonga",
+        "logo_text": "INSURFIN",
+        "logo_image": "assets/images/sponsors/insurfin-seguros.png",
+        "active": 1
+    },
+    {
+        "id": 3,
+        "name": "A Barquinha",
+        "short": "A Barquinha",
+        "tier": "principal",
+        "category": "Restauração & Petiscos",
+        "tagline": "Patrocinador Oficial da Época 2026/2027",
+        "description": "Restaurante e espaço de petiscos tradicional de referência em Vialonga (Rua Melo Antunes), ponto de encontro histórico e de convívio para os adeptos, sócios e famílias da nossa terra.",
+        "website": "",
+        "location": "Rua Melo Antunes, Vialonga",
+        "logo_text": "A BARQUINHA",
+        "logo_image": "assets/images/sponsors/a-barquinha.png",
+        "active": 1
+    }
+]

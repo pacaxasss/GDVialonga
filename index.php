@@ -333,18 +333,112 @@ require_once 'includes/header.php';
             <img src="assets/images/player_silhouette.png" alt="Formação GD Vialonga">
         </div>
     </div>
+<!-- LOJA OFICIAL SHOWCASE -->
+<section class="section section-gray" style="padding:4rem 0">
+    <div class="container">
+        <div style="display:flex;align-items:flex-end;justify-content:space-between;flex-wrap:wrap;gap:1.5rem;margin-bottom:2.25rem">
+            <div>
+                <span style="font-family:var(--font-display);font-size:.7rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--gdv-red);display:block;margin-bottom:.4rem">Merchandising Oficial</span>
+                <h2 style="font-family:var(--font-display);font-size:clamp(1.5rem,3.5vw,2.2rem);font-weight:900;color:var(--gray-900);line-height:1.15">
+                    Equipamentos GD Vialonga 2026/27
+                </h2>
+                <p style="font-size:.9rem;color:var(--gray-500);margin-top:.4rem;max-width:560px">
+                    Veste as cores do clube. Camisolas oficiais, kits completos de jogo e agasalhos disponíveis na nossa loja online com a SAK Project.
+                </p>
+            </div>
+            <a href="loja.php" class="btn btn-primary">
+                Ver Loja Completa &rarr;
+            </a>
+        </div>
+
+        <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(240px, 1fr));gap:1.5rem">
+            <div class="store-card" style="background:#fff;border-radius:var(--radius-md);border:1px solid var(--gray-200);overflow:hidden;display:flex;flex-direction:column;transition:var(--transition)">
+                <div style="background:#f8fafc;padding:1.25rem;aspect-ratio:1/1;display:flex;align-items:center;justify-content:center;overflow:hidden">
+                    <img src="assets/images/loja/camisola-75-anos-gd-vialonga.webp" alt="Camisola 75 Anos GD Vialonga" loading="lazy" style="max-width:100%;max-height:100%;object-fit:contain;transition:transform .3s ease">
+                </div>
+                <div style="padding:1.1rem;display:flex;flex-direction:column;flex-grow:1;justify-content:space-between">
+                    <div>
+                        <span style="font-size:.65rem;text-transform:uppercase;font-weight:700;color:var(--gray-400)">Edição Especial</span>
+                        <h3 style="font-family:var(--font-display);font-size:.9rem;font-weight:700;color:var(--gray-900);margin-top:.2rem">Camisola 75 Anos GD Vialonga</h3>
+                    </div>
+                    <div style="margin-top:.75rem;display:flex;align-items:center;justify-content:space-between;padding-top:.75rem;border-top:1px solid var(--gray-100)">
+                        <strong style="font-family:var(--font-display);color:var(--gdv-blue-darker);font-size:1.1rem">30,00 €</strong>
+                        <a href="https://sakproject.com/product/camisola-75-anos-gd-vialonga/" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="font-size:.72rem;padding:.35rem .75rem">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="store-card" style="background:#fff;border-radius:var(--radius-md);border:1px solid var(--gray-200);overflow:hidden;display:flex;flex-direction:column;transition:var(--transition)">
+                <div style="background:#f8fafc;padding:1.25rem;aspect-ratio:1/1;display:flex;align-items:center;justify-content:center;overflow:hidden">
+                    <img src="assets/images/loja/camisola-principal-gd-vialonga-2627.webp" alt="Camisola Principal GD Vialonga 26/27" loading="lazy" style="max-width:100%;max-height:100%;object-fit:contain;transition:transform .3s ease">
+                </div>
+                <div style="padding:1.1rem;display:flex;flex-direction:column;flex-grow:1;justify-content:space-between">
+                    <div>
+                        <span style="font-size:.65rem;text-transform:uppercase;font-weight:700;color:var(--gray-400)">Jogo 2026/27</span>
+                        <h3 style="font-family:var(--font-display);font-size:.9rem;font-weight:700;color:var(--gray-900);margin-top:.2rem">Camisola Principal 26/27</h3>
+                    </div>
+                    <div style="margin-top:.75rem;display:flex;align-items:center;justify-content:space-between;padding-top:.75rem;border-top:1px solid var(--gray-100)">
+                        <strong style="font-family:var(--font-display);color:var(--gdv-blue-darker);font-size:1.1rem">25,00 €</strong>
+                        <a href="https://sakproject.com/product/camisola-principal-gd-vialonga-26-27/" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="font-size:.72rem;padding:.35rem .75rem">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="store-card" style="background:#fff;border-radius:var(--radius-md);border:1px solid var(--gray-200);overflow:hidden;display:flex;flex-direction:column;transition:var(--transition)">
+                <div style="background:#f8fafc;padding:1.25rem;aspect-ratio:1/1;display:flex;align-items:center;justify-content:center;overflow:hidden">
+                    <img src="assets/images/loja/camisola-alternativo-gd-vialonga-2627.webp" alt="Camisola Alternativo GD Vialonga 26/27" loading="lazy" style="max-width:100%;max-height:100%;object-fit:contain;transition:transform .3s ease">
+                </div>
+                <div style="padding:1.1rem;display:flex;flex-direction:column;flex-grow:1;justify-content:space-between">
+                    <div>
+                        <span style="font-size:.65rem;text-transform:uppercase;font-weight:700;color:var(--gray-400)">Jogo 2026/27</span>
+                        <h3 style="font-family:var(--font-display);font-size:.9rem;font-weight:700;color:var(--gray-900);margin-top:.2rem">Camisola Alternativa 26/27</h3>
+                    </div>
+                    <div style="margin-top:.75rem;display:flex;align-items:center;justify-content:space-between;padding-top:.75rem;border-top:1px solid var(--gray-100)">
+                        <strong style="font-family:var(--font-display);color:var(--gdv-blue-darker);font-size:1.1rem">25,00 €</strong>
+                        <a href="https://sakproject.com/product/camisola-alternativo-gd-vialonga-26-27/" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="font-size:.72rem;padding:.35rem .75rem">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="store-card" style="background:#fff;border-radius:var(--radius-md);border:1px solid var(--gray-200);overflow:hidden;display:flex;flex-direction:column;transition:var(--transition)">
+                <div style="background:#f8fafc;padding:1.25rem;aspect-ratio:1/1;display:flex;align-items:center;justify-content:center;overflow:hidden">
+                    <img src="assets/images/loja/fato-de-treino-gd-vialonga.webp" alt="Fato de Treino GD Vialonga" loading="lazy" style="max-width:100%;max-height:100%;object-fit:contain;transition:transform .3s ease">
+                </div>
+                <div style="padding:1.1rem;display:flex;flex-direction:column;flex-grow:1;justify-content:space-between">
+                    <div>
+                        <span style="font-size:.65rem;text-transform:uppercase;font-weight:700;color:var(--gray-400)">Treino &amp; Saída</span>
+                        <h3 style="font-family:var(--font-display);font-size:.9rem;font-weight:700;color:var(--gray-900);margin-top:.2rem">Fato de Treino GD Vialonga</h3>
+                    </div>
+                    <div style="margin-top:.75rem;display:flex;align-items:center;justify-content:space-between;padding-top:.75rem;border-top:1px solid var(--gray-100)">
+                        <strong style="font-family:var(--font-display);color:var(--gdv-blue-darker);font-size:1.1rem">45,00 €</strong>
+                        <a href="https://sakproject.com/product/fato-de-treino-gd-vialonga/" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="font-size:.72rem;padding:.35rem .75rem">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 <!-- PATROCINADORES -->
 <section class="sponsors-section section-white">
     <div class="container">
-        <p style="font-family:var(--font-display);font-size:.68rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--gray-400);margin-bottom:1.25rem">Com o apoio de</p>
+        <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:1.25rem">
+            <p style="font-family:var(--font-display);font-size:.68rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--gray-400);margin:0">Com o apoio de</p>
+            <a href="patrocinadores.php" style="font-size:.78rem;font-weight:700;color:var(--gdv-blue);display:inline-flex;align-items:center;gap:.3rem">
+                <span>Ver Todos os Patrocinadores</span>
+                <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+        </div>
         <div class="sponsors-track-wrap">
             <div class="sponsors-track">
-                <?php foreach (array_merge($sponsors, $sponsors) as $s): ?>
-                <div class="sponsor-item <?= $s['tier'] === 'principal' ? 'principal' : '' ?>">
-                    <?= htmlspecialchars($s['short']) ?>
-                </div>
+                <?php foreach (array_merge($sponsors, $sponsors, $sponsors, $sponsors) as $s): ?>
+                <a href="patrocinadores.php" class="sponsor-item principal" style="text-decoration:none" title="<?= htmlspecialchars($s['name']) ?>">
+                    <?php if (!empty($s['logo_image']) && file_exists(__DIR__ . '/' . $s['logo_image'])): ?>
+                        <img src="<?= htmlspecialchars($s['logo_image']) ?>" alt="<?= htmlspecialchars($s['short']) ?>" style="max-height:26px;max-width:115px;object-fit:contain;display:block">
+                    <?php else: ?>
+                        <?= htmlspecialchars($s['short']) ?>
+                    <?php endif; ?>
+                </a>
                 <?php endforeach; ?>
             </div>
         </div>

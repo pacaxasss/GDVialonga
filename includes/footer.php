@@ -25,6 +25,8 @@
                     <li><a href="futebol.php">Futebol</a></li>
                     <li><a href="plantel.php">Plantéis</a></li>
                     <li><a href="formacao.php">Formação</a></li>
+                    <li><a href="loja.php">Loja Oficial</a></li>
+                    <li><a href="patrocinadores.php">Patrocinadores</a></li>
                     <li><a href="contactos.php">Contactos</a></li>
                 </ul>
             </div>
