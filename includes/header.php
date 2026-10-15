@@ -1,5 +1,16 @@
 <?php
-$currentPage = basename($_SERVER['PHP_SELF'], '.php');
+if (!isset($currentPage)) {
+    $currentPage = basename($_SERVER['PHP_SELF'] ?? '', '.php');
+    if ($currentPage === 'index' || $currentPage === '') {
+        $path = trim(parse_url($_SERVER['REQUEST_URI'] ?? '', PHP_URL_PATH) ?? '', '/');
+        $baseDir = trim(dirname(str_replace('\\', '/', $_SERVER['SCRIPT_NAME'] ?? '')), '/');
+        if ($baseDir !== '' && $baseDir !== '/' && str_starts_with($path, $baseDir)) {
+            $path = trim(substr($path, strlen($baseDir)), '/');
+        }
+        $parts = explode('/', $path);
+        $currentPage = preg_replace('/\.php$/', '', $parts[0] ?? '') ?: 'index';
+    }
+}
 ?>
 <!DOCTYPE html>
 <html lang="pt-PT">

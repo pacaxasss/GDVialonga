@@ -353,11 +353,12 @@ function loadData(string $filename): array {
 // ── Helpers de URLs e Rotas ─────────────────────────
 function getBasePath(): string {
     $script = str_replace('\\', '/', $_SERVER['SCRIPT_NAME'] ?? '');
-    $dir = dirname($script);
+    $dir = str_replace('\\', '/', dirname($script));
     if (str_ends_with($dir, '/pages') || str_ends_with($dir, '/admin')) {
-        $dir = dirname($dir);
+        $dir = str_replace('\\', '/', dirname($dir));
     }
-    return rtrim($dir, '/') . '/';
+    $dir = rtrim($dir, '/');
+    return ($dir === '' || $dir === '.') ? '/' : $dir . '/';
 }
 
 function url(string $path = ''): string {

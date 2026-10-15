@@ -30,7 +30,9 @@ ini_set('session.use_trans_sid', '0');
 ini_set('session.cookie_httponly', '1');
 ini_set('session.cookie_samesite', 'Lax');
 ini_set('session.gc_maxlifetime', '1800');
-$requestIsHttps = !empty($_SERVER['HTTPS']) && strtolower((string)$_SERVER['HTTPS']) !== 'off';
+$requestIsHttps = (!empty($_SERVER['HTTPS']) && strtolower((string)$_SERVER['HTTPS']) !== 'off')
+    || (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && strtolower($_SERVER['HTTP_X_FORWARDED_PROTO']) === 'https')
+    || (isset($_SERVER['HTTP_X_FORWARDED_SSL']) && strtolower($_SERVER['HTTP_X_FORWARDED_SSL']) === 'on');
 $configuredForHttps = parse_url(SITE_URL, PHP_URL_SCHEME) === 'https';
 if ($configuredForHttps && !$requestIsHttps && PHP_SAPI !== 'cli') {
     $requestUri = $_SERVER['REQUEST_URI'] ?? '/';

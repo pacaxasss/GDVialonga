@@ -1,4 +1,88 @@
 <?php
+// ── Router / Front Controller (compatível com Railway, Nginx, Apache e PHP CLI) ──
+$requestUri  = $_SERVER['REQUEST_URI'] ?? '/';
+$requestPath = parse_url($requestUri, PHP_URL_PATH) ?? '/';
+
+// Assegura que $_GET tem os parâmetros mesmo quando reescrito por proxies
+if (empty($_GET) && str_contains($requestUri, '?')) {
+    $queryString = parse_url($requestUri, PHP_URL_QUERY) ?? '';
+    if ($queryString !== '') {
+        parse_str($queryString, $_GET);
+    }
+}
+
+// Se o projeto estiver numa subpasta (ex: /gdvialonga-web/...), remove o prefixo da pasta
+$scriptName = str_replace('\\', '/', $_SERVER['SCRIPT_NAME'] ?? '');
+$scriptDir  = rtrim(dirname($scriptName), '/');
+if ($scriptDir !== '' && $scriptDir !== '/' && str_starts_with($requestPath, $scriptDir)) {
+    $requestPath = substr($requestPath, strlen($scriptDir));
+}
+
+$trimmedPath = trim($requestPath, '/');
+
+// Se for pedido direto a uma página que não seja a homepage
+if ($trimmedPath !== '' && $trimmedPath !== 'index.php' && $trimmedPath !== 'index') {
+    $route = preg_replace('/\.php$/', '', $trimmedPath);
+
+    // Se a rota começar por "pages/", remove o prefixo
+    if (str_starts_with($route, 'pages/')) {
+        $route = substr($route, 6);
+    }
+
+    // 1. Verifica se existe em pages/{route}.php
+    $pageFile = __DIR__ . '/pages/' . $route . '.php';
+    if (file_exists($pageFile)) {
+        $currentPage = $route;
+        require $pageFile;
+        exit;
+    }
+
+    // 2. Rotas do Admin
+    if ($route === 'admin') {
+        $adminIndex = __DIR__ . '/admin/index.php';
+        if (file_exists($adminIndex)) {
+            $currentPage = 'admin';
+            chdir(__DIR__ . '/admin');
+            require $adminIndex;
+            exit;
+        }
+    } elseif (str_starts_with($route, 'admin/')) {
+        $adminSub = substr($route, 6);
+        $adminFile = __DIR__ . '/admin/' . $adminSub . '.php';
+        if (file_exists($adminFile)) {
+            $currentPage = 'admin';
+            chdir(__DIR__ . '/admin');
+            require $adminFile;
+            exit;
+        }
+    }
+
+    // 3. Ficheiro estático inexistente devolve 404 limpo
+    if (preg_match('/\.(css|js|png|jpg|jpeg|webp|gif|svg|ico|woff|woff2|ttf|eot)$/i', $trimmedPath)) {
+        http_response_code(404);
+        exit;
+    }
+
+    // 4. Página não encontrada (404 personalizado)
+    http_response_code(404);
+    $pageTitle = 'Página não encontrada';
+    require_once __DIR__ . '/config.php';
+    require_once __DIR__ . '/includes/functions.php';
+    require_once __DIR__ . '/includes/header.php';
+    echo '<section class="section section-gray" style="min-height:55vh;display:flex;align-items:center;justify-content:center;text-align:center">
+        <div class="container">
+            <h1 style="font-family:var(--font-display);font-size:3.5rem;font-weight:900;color:var(--gdv-red);margin-bottom:.5rem">404</h1>
+            <h2 style="font-family:var(--font-display);font-weight:800;color:var(--gray-900);margin-bottom:1rem">Página não encontrada</h2>
+            <p style="color:var(--gray-500);margin-bottom:1.75rem;max-width:480px;margin-left:auto;margin-right:auto">
+                A página que procura não existe ou foi alterada. Verifique o endereço ou regresse à página inicial.
+            </p>
+            <a href="' . url() . '" class="btn btn-primary btn-lg">Voltar à Página Inicial</a>
+        </div>
+    </section>';
+    require_once __DIR__ . '/includes/footer.php';
+    exit;
+}
+
 require_once 'config.php';
 require_once 'includes/functions.php';
 $pageTitle       = 'GD Vialonga — Orgulho de Vialonga desde 1961';
