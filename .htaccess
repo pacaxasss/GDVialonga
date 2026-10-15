@@ -1,0 +1,20 @@
+Options -Indexes
+RewriteEngine On
+
+# Proteção de ficheiros confidenciais
+<FilesMatch "^(config\.php|README\.md)$">
+    Require all denied
+</FilesMatch>
+
+<FilesMatch "(?i)\.(db|sqlite|sqlite3|sql|log|bak|env|ini|pem|key)$">
+    Require all denied
+</FilesMatch>
+
+# Se o ficheiro ou diretoria existir fisicamente, serve diretamente
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Reescrita para as páginas em pages/ (suporta /pagina e /pagina.php)
+RewriteCond %{REQUEST_URI} !^/(admin|assets|data|includes|tools)/
+RewriteRule ^([a-zA-Z0-9_-]+)(?:\.php)?$ pages/$1.php [L,QSA]
