@@ -139,6 +139,83 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 
+  // Player bio modal (plantel.php)
+  const playerModal = document.getElementById('player-modal');
+  if (playerModal) {
+    const modalImg   = document.getElementById('player-modal-img');
+    const modalNum   = document.getElementById('player-modal-number');
+    const modalSquad = document.getElementById('player-modal-squad');
+    const modalName  = document.getElementById('player-modal-name');
+    const modalRole  = document.getElementById('player-modal-role');
+    const modalGoals = document.getElementById('player-modal-goals');
+    const modalAssist = document.getElementById('player-modal-assists');
+    const modalAge   = document.getElementById('player-modal-age');
+    const modalNat   = document.getElementById('player-modal-nationality');
+    const modalClubs = document.getElementById('player-modal-clubs');
+    const modalBio   = document.getElementById('player-modal-bio');
+    let lastFocused = null;
+
+    function openPlayerModal(raw) {
+      let data;
+      try { data = JSON.parse(raw); } catch (e) { return; }
+      lastFocused = document.activeElement;
+
+      if (modalImg) {
+        if (data.photo) {
+          modalImg.src = data.photo;
+          modalImg.alt = data.name || '';
+          modalImg.hidden = false;
+        } else {
+          modalImg.removeAttribute('src');
+          modalImg.hidden = true;
+        }
+      }
+      if (modalNum) modalNum.textContent = data.number > 0 ? data.number : '';
+      modalSquad.textContent = data.squad || '';
+      modalName.textContent = data.name || '';
+      modalRole.textContent = [data.position, data.nationality].filter(Boolean).join(' · ');
+      modalGoals.textContent = data.goals || 0;
+      modalAssist.textContent = data.assists || 0;
+      modalAge.textContent = data.age ? data.age : '—';
+      modalNat.textContent = data.nationality || '—';
+
+      modalClubs.replaceChildren();
+      (data.clubs || []).forEach(club => {
+        const li = document.createElement('li');
+        li.textContent = club;
+        modalClubs.appendChild(li);
+      });
+      modalBio.textContent = data.bio || '';
+
+      playerModal.hidden = false;
+      playerModal.setAttribute('aria-hidden', 'false');
+      document.body.classList.add('modal-open');
+      const closeBtn = playerModal.querySelector('.player-modal-close');
+      if (closeBtn) closeBtn.focus();
+    }
+
+    function closePlayerModal() {
+      playerModal.hidden = true;
+      playerModal.setAttribute('aria-hidden', 'true');
+      document.body.classList.remove('modal-open');
+      if (lastFocused && typeof lastFocused.focus === 'function') lastFocused.focus();
+    }
+
+    document.querySelectorAll('.player-card[data-player]').forEach(card => {
+      card.addEventListener('click', () => openPlayerModal(card.dataset.player));
+      card.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openPlayerModal(card.dataset.player); }
+      });
+    });
+
+    playerModal.querySelectorAll('[data-modal-close]').forEach(el => {
+      el.addEventListener('click', closePlayerModal);
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && !playerModal.hidden) closePlayerModal();
+    });
+  }
+
   // Inject keyframes
   if (!document.getElementById('gdv-keyframes')) {
     const s = document.createElement('style');
